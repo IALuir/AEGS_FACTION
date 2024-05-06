@@ -210,6 +210,12 @@
 	<replace sel="//wares/ware[@id='retribution_maingun_macro']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='retribution_l2x']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='retribution_sx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_ai_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_ai_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_ai_ad']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_aa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_gat']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_medium_gun']/owner/@faction">uee</replace>
 
 	<replace sel="//wares/ware[@id='retribution']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='ship_aegs_l_bengal']/production/@name">{996665,1}</replace>
@@ -421,6 +427,12 @@
 	<replace sel="//wares/ware[@id='retribution_maingun_macro']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='retribution_l2x']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='retribution_sx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_ai_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_ai_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_ai_ad']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_aa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_gat']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='bengal_turret_medium_gun']/production/@name">{996665,1}</replace>
 
 	<add sel="//wares/ware[@id='ship_atf_l_destroyer_01_a']">
 		<owner faction="uee" />
