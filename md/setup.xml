@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff>
+<!-- for new games only,for savegames it is loaded in factionlogic.xml -->
+    <add sel="/mdscript/cues/cue[@name='Start']/actions/set_value[@name='md.$EquipmentTable']" pos="after">
+        <get_ware_definition result="md.$EquipmentTable.{faction.uee}" faction="faction.uee" />
+	</add>
+	<add sel="/mdscript/cues/cue[@name='Start']/actions/set_value[@name='md.$FactionData']" pos="after">
+		<set_value name="md.$FactionData.{faction.uee}" exact="table[]" />
+	</add>
+		
+
+</diff>
+ 

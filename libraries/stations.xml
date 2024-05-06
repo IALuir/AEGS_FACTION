@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff> 
+	<add sel="/stations">
+		<station id="headquaters_uee" group="headquaters_uee">
+			<category tags="tradestation" faction="[uee]" />
+		</station>
+
+		<station id="tradestation_uee" group="tradestation_uee">
+			<category tags="tradestation" faction="[uee]" />
+		</station>
+
+		<station id="shipyard_uee" group="shipyard_uee">
+			<category tags="shipyard" faction="[uee]" />
+		</station>
+
+		<station id="wharf_uee" group="wharf_uee">
+			<category tags="wharf" faction="[uee]" />
+		</station>
+
+		<station id="equipmentdock_uee" group="equipmentdock_uee">
+			<category tags="equipmentdock" faction="[uee]" />
+		</station>
+
+		<station id="defence_uee" group="defence_uee">
+			<category tags="defence" faction="[uee]" />
+		</station>
+
+	</add>
+</diff>
+

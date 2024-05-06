@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff> 
+	<add sel="//ships">
+
+		<ship id="uee_builder_xl" group="uee_builder_xl">
+			<category tags="[builder, mission]" faction="uee" size="ship_xl"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<drop ref="ship_large_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+		<ship id="uee_resupplier_xl" group="uee_resupplier_xl">
+			<category tags="[resupplier, mission]" faction="uee" size="ship_xl"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<drop ref="ship_large_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+
+		<ship id="uee_trader_container_l" group="uee_trader_container_l">
+			<category tags="[trader, container, mission]" faction="uee" size="ship_l"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="all_container"/>
+			<drop ref="ship_large_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+		<ship id="uee_trader_container_m" group="uee_trader_container_m">
+			<category tags="[trader, container, mission]" faction="uee" size="ship_m"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="all_container"/>
+			<drop ref="ship_medium_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+		<ship id="uee_trader_container_s" group="uee_trader_container_s">
+			<category tags="[trader, container, mission]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="all_container"/>
+			<drop ref="ship_small_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+
+		<ship id="uee_miner_solid_l" group="uee_miner_solid_l">
+			<category tags="[miner, solid, mission]" faction="uee" size="ship_l"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="minerals"/>
+			<drop ref="ship_large_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+		<ship id="uee_miner_liquid_l" group="uee_miner_liquid_l">
+			<category tags="[miner, liquid, mission]" faction="uee" size="ship_l"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="gases"/>
+			<drop ref="ship_large_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+		<ship id="uee_miner_solid_m" group="uee_miner_solid_m">
+			<category tags="[miner, solid, mission]" faction="uee" size="ship_m"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="minerals"/>
+			<drop ref="ship_medium_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+		<ship id="uee_miner_liquid_m" group="uee_miner_liquid_m">
+			<category tags="[miner, liquid, mission]" faction="uee" size="ship_m"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="gases"/>
+			<drop ref="ship_medium_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+		<ship id="uee_miner_solid_s" group="uee_miner_solid_s">
+			<category tags="[miner, solid, mission]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="minerals"/>
+			<drop ref="ship_small_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+		<ship id="uee_miner_solid_mixed"  group="uee_miner_solid_mixed">
+			<category tags="[miner, solid, mixed]" faction="uee"/>
+			<owner exact="uee" overridenpc="true"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="minerals"/>
+			<drop ref="ship_medium_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+		<ship id="uee_miner_liquid_mixed"  group="uee_miner_liquid_mixed">
+			<category tags="[miner, liquid, mixed]" faction="uee"/>
+			<owner exact="uee" overridenpc="true"/>
+			<pilot>
+			<select faction="terran" tags="traderpilot"/>
+			</pilot>
+			<basket basket="gases"/>
+			<drop ref="ship_medium_civilian"/>
+			<people ref="terran_freighter_crew"/>
+		</ship>
+
+
+		<!--军用-->
+		<!--航母-->
+		<ship id="uee_carrier_military_bengal" group="uee_carrier_military_bengal">
+			<category tags="[military, carrier, mission]" faction="uee" size="ship_l"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_large_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--无畏舰-->
+		<ship id="uee_battleship_military_xl" group="uee_battleship_military_xl">
+			<category tags="[military, battleship, mission]" faction="uee" size="ship_xl"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_large_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--驱逐舰-->
+		<ship id="uee_destroyer_military_l" group="uee_destroyer_military_l">
+			<category tags="[military, destroyer, mission]" faction="uee" size="ship_l"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_large_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--护卫舰-->
+		<ship id="uee_frigate_military_l" group="uee_frigate_military_l">
+			<category tags="[military, frigate, mission]" faction="uee" size="ship_l"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_large_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--混编护卫舰-->
+		<ship id="uee_frigate_military_mixed_l" group="uee_frigate_military_mixed_l">
+			<category tags="[military, frigate, mission]" faction="uee" size="ship_l"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_large_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--中型炮艇-->
+		<ship id="uee_gunboat_military_m" group="uee_gunboat_military_m">
+			<category tags="[military, medium, gunboat, mission]" faction="uee" size="ship_m"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+		
+		<!--中型轰炸机-->
+		<ship id="uee_bomber_military_m" group="uee_bomber_military_m">
+			<category tags="[military, medium, bomber, mission]" faction="uee" size="ship_m"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--中型护卫艇-->
+		<ship id="uee_frigate_military_m" group="uee_frigate_military_m">
+			<category tags="[military, medium, corvette, mission]" faction="uee" size="ship_m"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--军用战机-->
+		<ship id="uee_fighter_military_s" group="uee_fighter_military_s">
+			<category tags="[military, fighter, selection, mission, police]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--军用轰炸机-->
+		<ship id="uee_bomber_military_s" group="uee_bomber_military_s">
+			<category tags="[military, bomber, mission]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--重型战机-->
+		<ship id="uee_fighter_heavy_military_s" group="uee_fighter_heavy_military_s">
+			<category tags="[military, fighter, heavy, mission]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--王牌战机-->
+		<ship id="uee_fighter_heavy_military_ace_s" group="uee_fighter_heavy_military_ace_s">
+			<category tags="[military, fighter, ace, mission]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--侦察机-->
+		<ship id="uee_scout_military_s" group="uee_scout_military_s">
+			<category tags="[military, scout, light, mission]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--民用-->
+		<!--航母-->
+		<ship id="uee_carrier_kraken" group="uee_carrier_kraken">
+			<category tags="[civilian, carrier, mission]" faction="uee" size="ship_l"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_large_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--护卫舰-->
+		<ship id="uee_frigate_l" group="uee_frigate_l">
+			<category tags="[civilian, frigate, mission]" faction="uee" size="ship_l"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_large_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--中型炮艇-->
+		<ship id="uee_gunboat_m" group="uee_gunboat_m">
+			<category tags="[civilian, medium, gunboat, mission]" faction="uee" size="ship_m"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--中型轰炸机-->
+		<ship id="uee_bomber_m" group="uee_bomber_m">
+			<category tags="[civilian, medium, bomber, mission]" faction="uee" size="ship_m"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--中型护卫艇-->
+		<ship id="uee_frigate_m" group="uee_frigate_m">
+			<category tags="[civilian, medium, corvette, mission]" faction="uee" size="ship_m"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--战机-->
+		<ship id="uee_fighter_s" group="uee_fighter_s">
+			<category tags="[civilian, fighter, selection, mission, police]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--轰炸机-->
+		<ship id="uee_bomber_s" group="uee_bomber_s">
+			<category tags="[civilian, bomber, mission]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--重型战机-->
+		<ship id="uee_fighter_heavy_s" group="uee_fighter_heavy_s">
+			<category tags="[civilian, fighter, heavy, mission]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--王牌战机-->
+		<ship id="uee_fighter_heavy_ace_s" group="uee_fighter_heavy_ace_s">
+			<category tags="[civilian, fighter, ace, mission]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--侦察机-->
+		<ship id="uee_scout_s" group="uee_scout_s">
+			<category tags="[civilian, scout, light, mission]" faction="uee" size="ship_s"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_small_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+
+		<!--中原交通-->
+		<ship id="masstraffic_uee_dockarea" group="uee_dockarea_mass_traffic">
+			<owner exact="civilian" overridenpc="true"/>
+			<pilot>
+			<select faction="civilian" tags="[masstraffic]" race="uee"/>
+			</pilot>
+			<drop ref="masstraffic_terran_civilian"/>
+		</ship>
+		<ship id="masstraffic_uee_pier" group="uee_pier_mass_traffic">
+			<owner exact="civilian" overridenpc="true"/>
+			<pilot>
+			<select faction="civilian" tags="[masstraffic]" race="uee"/>
+			</pilot>
+			<drop ref="masstraffic_terran_civilian"/>
+		</ship>
+		<ship id="masstraffic_uee_storage" group="uee_storage_mass_traffic">
+			<owner exact="civilian" overridenpc="true"/>
+			<pilot>
+			<select faction="civilian" tags="[masstraffic]" race="uee"/>
+			</pilot>
+			<drop ref="masstraffic_terran_civilian"/>
+		</ship>
+		<ship id="masstraffic_uee_production" group="uee_production_mass_traffic">
+			<owner exact="civilian" overridenpc="true"/>
+			<pilot>
+			<select faction="civilian" tags="[masstraffic]" race="uee"/>
+			</pilot>
+			<drop ref="masstraffic_terran_civilian"/>
+		</ship>
+		<ship id="masstraffic_uee_buildmodule" group="uee_buildmodule_mass_traffic">
+			<owner exact="civilian" overridenpc="true"/>
+			<pilot>
+			<select faction="civilian" tags="[masstraffic]" race="uee"/>
+			</pilot>
+			<drop ref="masstraffic_terran_civilian"/>
+		</ship>
+		<ship id="masstraffic_uee_defencemodule" group="uee_defencemodule_mass_traffic">
+			<owner exact="civilian" overridenpc="true"/>
+			<pilot>
+			<select faction="civilian" tags="[masstraffic]" race="uee"/>
+			</pilot>
+			<drop ref="masstraffic_terran_civilian"/>
+		</ship>
+
+		<ship id="masstraffic_terran_civilian" group="uee_civilian_mass_traffic">
+			<owner exact="civilian" overridenpc="true"/>
+			<pilot>
+			<select faction="civilian" tags="[masstraffic]" race="uee"/>
+			</pilot>
+			<drop ref="masstraffic_terran_civilian"/>
+		</ship>
+		<ship id="masstraffic_terran_civilian_station" group="uee_civilian_mass_traffic">
+			<owner exact="civilian" overridenpc="true"/>
+			<pilot>
+			<select faction="civilian" tags="[masstraffic]" race="uee"/>
+			</pilot>
+			<drop ref="masstraffic_terran_civilian"/>
+		</ship>
+		<ship id="masstraffic_uee_police" group="uee_police_mass_traffic">
+			<owner exact="terran" overridenpc="true"/>
+			<pilot>
+			<select faction="terran" tags="pilot"/>
+			</pilot>
+			<drop ref="masstraffic_terran_civilian"/>
+		</ship>
+
+	</add>
+</diff>

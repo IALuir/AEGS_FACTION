@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/groups">
+    <group name="headquaters_uee">
+      <select constructionplan="uee_headquaters" />
+    </group>
+
+    <group name="tradestation_uee">
+      <select constructionplan="ter_logisticsdock" />
+      <select constructionplan="ter_supportstation" />
+      <select constructionplan="ter_supplybase" />
+    </group>
+
+    <group name="shipyard_uee">
+      <select constructionplan="ter_shipyard" />
+    </group>
+
+    <group name="wharf_uee">
+      <select constructionplan="ter_wharf" />
+    </group>
+
+    <group name="equipmentdock_uee">
+      <select constructionplan="ter_equipmentdock" />
+    </group>
+
+    <group name="defence_uee">
+      <select constructionplan="ter_defence" weight="80" />
+      <select constructionplan="ter_defenceplatform" weight="20" />
+    </group>
+
+  </add>
+</diff>

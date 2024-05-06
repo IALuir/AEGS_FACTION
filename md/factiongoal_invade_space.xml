@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+  <add sel="/mdscript/cues/cue[@name='Start']/actions/do_if[@value='$ExpeditionForce and @$ExpeditionShipTagPatchMarker']" pos="after">
+    <do_elseif value="$Faction == faction.uee and $Target.owner == faction.terran">
+      <set_value name="$FindMilitaryShipTags" exact="[tag.peacekeeping]"/>
+    </do_elseif>
+  </add>
+
+
+</diff>

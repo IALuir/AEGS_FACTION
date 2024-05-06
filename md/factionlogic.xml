@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+	<add sel="//cue[@name='FactionLogicManagers']/cues">
+
+		<cue name="SetupueeModpack" version="1" comment="">
+			<actions>
+				<set_value name="md.$FactionData.{faction.uee}" exact="table[]" />
+			</actions>
+			<patch sinceversion="1">
+				<set_value name="ueeFactionLogic.$PreferredHQSpaceMacro" exact="macro.cluster_116_sector001_macro" comment=""/>
+				<set_value name="$PreferredHQTypes" exact="['tradestation', 'any']"/>
+			</patch>
+		</cue>
+
+		<cue name="ueeFactionLogic" comment="enabled from the start">
+          <cues>
+            <cue name="ueeFactionLogic_Manager" ref="Manager">
+              <param name="Faction" value="faction.uee"/>
+              <param name="BaseAggressionLevel" value="moodlevel.normal"/>
+              <param name="BaseAvariceLevel" value="moodlevel.high"/>
+              <param name="BaseLawfulness" value="0.9"/>
+			  <param name="ExpeditionEnemies" value="[faction.terran]"/>
+              <param name="HasMissions" value="false"/>
+			  <param name="PreferredHQSpaceMacro" value="macro.cluster_116_sector001_macro" comment=""/>
+			  <param name="PreferredHQTypes" value="['tradestation', 'any']"/>
+              <param name="SatelliteNetworkGoal" value="50"/>
+			  <param name="LasertowerNetworkGoal" value="30"/>
+			  <param name="MinefieldGoalPerSector" value="1" comment="[MGPS * Sectors, 12].min is the maximum amount of Minefields for this faction"/>
+			  <param name="ExcludedSectorMacros" value="[macro.cluster_112_sector001_macro, macro.cluster_112_sector002_macro]"/>
+              <param name="DebugChance" value="0"/>
+              <param name="DebugChance2" value="0"/>
+            </cue>
+          </cues>
+        </cue>
+	</add>		
+	
+</diff>

@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//wares/ware[@id='retribution']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='ship_aegs_l_bengal']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='ship_aegs_l_javelin']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='f8c_lightning']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='f8c_lightning_a']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='aegs_hammer']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='retaliator']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='scorpius']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='scorpius_antares']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='ship_drak_kraken']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='ship_aegs_idris']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='ship_aegs_idris_p']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='arrow']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='eclipse']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='starlifter_c2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='starlifter_a2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='starlifter_m2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='f7a']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='f7c']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='f7cr']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='f7cm']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='starfighter']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='talon']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='sabre']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='gladius']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='vanguard']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='cutlass']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='p52_merlin']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='reclaimer']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='avenger']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='spirit_a1']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='spirit_c1']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='redeemer']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='mole']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='engine_aegs_max_javelin_macro']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='engine_f8c_lightning_macro']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='engine_aegs_xl_bengal']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='hammerhead_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='retaliator_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='scorpius_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='engine_kraken_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='engine_idris_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='arrow_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='eclipse_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='starlifter_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='f7a_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='f7c_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='starfighter_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='talon_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='sabre_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='gladius_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='vanguard_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='cutlass_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='retribution_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='p52_merlin_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='reclaimer_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='avenger_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='redeemer_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='mole_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_bengal_singer_cannon']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_javelin_s9_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_javelin_s7_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_javelin_s5_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_javelin_s5_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_javelin_s5_ad']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f8_s3_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f8_s3_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f8_s3_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f8_s3_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_retaliator_s3_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_retaliator_s3_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_retaliator_s3_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_retaliator_s3_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_arrow_s2_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_arrow_s2_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_arrow_s2_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_arrow_s2_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='cutlass_turret_s2_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='cutlass_turret_s2_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='cutlass_turret_s2_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='cutlass_turret_s2_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_turret_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_turret_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_turret_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_turret_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_hammerhead_s4_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_hammerhead_s4_ad']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_hammerhead_s4_2_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_hammerhead_s4_2_ad']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_scorpius_s3_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_scorpius_s3_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_scorpius_s3_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_scorpius_s3_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_b_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_b_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_b_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_b_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f7a_s3_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f7a_s3_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f7a_s3_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f7a_s3_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f7cm_s2_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f7cm_s2_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f7cm_s2_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_f7cm_s2_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s6_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s6_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s6_ad']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s7_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s7_at']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s7_ad']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_idris_s7_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_idris_s7_at']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_idris_s7_ad']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_idris_s3_missile']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_starlifter_s4_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_starlifter_s4_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_starlifter_s4_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='reclaimer_turret_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='reclaimer_turret_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='reclaimer_turret_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='reclaimer_turret_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda_turret_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda_turret_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda_turret_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda_turret_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_ad']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='mole_turret']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='mole_turret2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='aegs_l_s10']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='eclipse_missile']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s12_seeker_xii']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s9_argos_ix']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s8_scimitar_viii']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s2_tempest_ii']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s2_ignite_ii']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s3_viper_iii']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s3_arrester_iii']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s1_taskforce_i']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s1_spark_i']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s1_marksman_i']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_spirit_a1_fski']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s12']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s11']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s10']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s9']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s8']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s7']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s6']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s5']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s4']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s4_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s3_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s2_s1']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_f8_s2_missile']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_f8_s1_missile']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_left_hammerhead_s3_missile']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_rigth_hammerhead_s3_missile']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_idris_s10_cannon']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_idris_s10_beam']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_antares_emp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_vanguard_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_p52_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='generic_s2_missile']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='generic_s1_missile']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_boom']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_nnxa_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_fl_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_cf_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_mxa_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_gtx_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_xsgc_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_sw16br_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_sp_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_db_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_nbd_s2']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_nnxa_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_fl_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_cf_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_mxa_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_gtx_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_xsgc_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_sw16br_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_sp_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_db_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_nbd_s3']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_cf_s4']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_mxa_s4']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_ad_s4']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_rgt_s4']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_c788_s4']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_db_s4']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_gt870_s4']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_cf_s5']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_mxa_s5']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_ad_s5']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_db_s5']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_gt870_s5']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_sf7e_s7']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='weapon_sf7b_s7']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='retribution_maingun_macro']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='retribution_l2x']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='retribution_sx']/owner/@faction">uee</replace>
+
+	<replace sel="//wares/ware[@id='retribution']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='ship_aegs_l_bengal']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='ship_aegs_l_javelin']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='f8c_lightning']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='f8c_lightning_a']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='aegs_hammer']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='retaliator']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='scorpius']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='scorpius_antares']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='ship_drak_kraken']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='ship_aegs_idris']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='ship_aegs_idris_p']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='arrow']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='eclipse']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='starlifter_c2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='starlifter_a2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='starlifter_m2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='f7a']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='f7c']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='f7cr']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='f7cm']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='starfighter']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='talon']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='sabre']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='gladius']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='vanguard']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='cutlass']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='p52_merlin']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='reclaimer']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='avenger']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='spirit_a1']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='spirit_c1']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='redeemer']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='mole']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='engine_aegs_max_javelin_macro']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='engine_f8c_lightning_macro']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='engine_aegs_xl_bengal']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='hammerhead_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='retaliator_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='scorpius_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='engine_kraken_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='engine_idris_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='arrow_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='eclipse_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='starlifter_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='f7a_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='f7c_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='starfighter_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='talon_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='sabre_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='gladius_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='vanguard_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='cutlass_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='retribution_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='p52_merlin_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='reclaimer_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='avenger_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='redeemer_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='mole_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_bengal_singer_cannon']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_javelin_s9_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_javelin_s7_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_javelin_s5_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_javelin_s5_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_javelin_s5_ad']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f8_s3_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f8_s3_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f8_s3_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f8_s3_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_retaliator_s3_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_retaliator_s3_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_retaliator_s3_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_retaliator_s3_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_arrow_s2_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_arrow_s2_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_arrow_s2_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_arrow_s2_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='cutlass_turret_s2_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='cutlass_turret_s2_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='cutlass_turret_s2_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='cutlass_turret_s2_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_turret_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_turret_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_turret_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_turret_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_hammerhead_s4_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_hammerhead_s4_ad']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_hammerhead_s4_2_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_hammerhead_s4_2_ad']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_scorpius_s3_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_scorpius_s3_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_scorpius_s3_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_scorpius_s3_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_b_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_b_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_b_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_b_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f7a_s3_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f7a_s3_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f7a_s3_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f7a_s3_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f7cm_s2_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f7cm_s2_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f7cm_s2_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_f7cm_s2_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s6_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s6_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s6_ad']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s7_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s7_at']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_kraken_s7_ad']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_idris_s7_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_idris_s7_at']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_idris_s7_ad']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_idris_s3_missile']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_starlifter_s4_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_starlifter_s4_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_starlifter_s4_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='reclaimer_turret_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='reclaimer_turret_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='reclaimer_turret_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='reclaimer_turret_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda_turret_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda_turret_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda_turret_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='constellation_andromeda_turret_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='redeemer_turret_ad']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='mole_turret']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='mole_turret2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='aegs_l_s10']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='eclipse_missile']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s12_seeker_xii']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s9_argos_ix']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s8_scimitar_viii']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s2_tempest_ii']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s2_ignite_ii']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s3_viper_iii']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s3_arrester_iii']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s1_taskforce_i']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s1_spark_i']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s1_marksman_i']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_spirit_a1_fski']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s12']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s11']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s10']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s9']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s8']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s7']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s6']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s5']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s4']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s4_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s3_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_s2_s1']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_f8_s2_missile']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_f8_s1_missile']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_left_hammerhead_s3_missile']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_rigth_hammerhead_s3_missile']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_idris_s10_cannon']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_idris_s10_beam']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_antares_emp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_vanguard_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_p52_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='generic_s2_missile']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='generic_s1_missile']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='spirit_a1_boom']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_nnxa_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_fl_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_cf_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_mxa_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_gtx_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_xsgc_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_sw16br_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_sp_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_db_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_nbd_s2']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_nnxa_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_fl_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_cf_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_mxa_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_gtx_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_xsgc_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_sw16br_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_sp_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_db_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_nbd_s3']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_cf_s4']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_mxa_s4']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_ad_s4']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_rgt_s4']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_c788_s4']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_db_s4']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_gt870_s4']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_cf_s5']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_mxa_s5']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_ad_s5']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_db_s5']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_gt870_s5']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_sf7e_s7']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='weapon_sf7b_s7']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='retribution_maingun_macro']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='retribution_l2x']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='retribution_sx']/production/@name">{996665,1}</replace>
+
+	<add sel="//wares/ware[@id='ship_atf_l_destroyer_01_a']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='ship_atf_xl_battleship_01_a']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='ship_ter_l_destroyer_01_a']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='ship_ter_xl_builder_01_a']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='ship_ter_xl_resupplier_01_a']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='ship_ter_l_miner_liquid_01_a']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='ship_ter_l_miner_solid_01_a']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='ship_ter_l_trans_container_01_a']">
+		<owner faction="uee" />
+	</add>
+
+	<add sel="//wares/ware[@id='engine_ter_l_allround_01_mk1']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='engine_ter_l_travel_01_mk1']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='engine_ter_xl_allround_01_mk1']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='engine_ter_xl_travel_01_mk1']">
+		<owner faction="uee" />
+	</add>
+
+	<add sel="//wares/ware[@id='ship_ter_xl_carrier_01_a']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='ship_ter_xs_police_01_a']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_conn_base_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_conn_base_02']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_conn_base_03']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_conn_cross_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_conn_vertical_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_conn_vertical_02']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_def_claim_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_def_disc_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_def_tube_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_dock_m_01_hightech']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_hab_l_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_hab_m_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_hab_s_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_pier_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_pier_02']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_pier_03']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_pier_04']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_prod_computronicsubstrate_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_prod_energycells_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_prod_medicalsupplies_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_prod_metallicmicrolattice_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_prod_proteinpaste_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_prod_siliconcarbide_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_prod_stimulants_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_prod_terranmre_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_stor_container_l_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_stor_container_m_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_stor_container_s_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_stor_liquid_l_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_stor_liquid_m_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_stor_liquid_s_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_stor_solid_l_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_stor_solid_m_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_stor_solid_s_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_gen_build_dockarea_m_01']">
+		<owner faction="uee" />
+	</add>
+</diff>

@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="utf-8"?>
+<content id="AEGS_FACTION" name="AEGS_FACTION" description="AEGS补全计划" author="ALuir Lambda" version="010" date="2024-05-01" save="1" enabled="0">
+  <text language="86" name="AEGS 势力" description="&#13;&#10;
+    AEGS &#13;&#10;
+    如果你想支持：https://afdian.net/a/X4_AEGS &#13;&#10;
+    If you would like to support me：https://afdian.net/a/X4_AEGS &#13;&#10;
+    " 
+    author="ALuir"></text>
+  <dependency version="620" />
+  <dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>
+  <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity"/>
+  <dependency id="ego_dlc_pirate" optional="false" name="Tides of Avarice"/>
+  <dependency id="ego_dlc_boron" optional="false" name="Kingdom End"/>
+  <dependency id="AEGS" optional="false" name="AEGS"/>
+</content>

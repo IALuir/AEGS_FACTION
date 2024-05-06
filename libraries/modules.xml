@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../libraries/diff.xsd">
+  <add sel="/modules">
+    <!-- Terran Production Modules -->
+
+    <module id="uee_prod_ter_computronicsubstrate" group="prod_ter_computronicsubstrate">
+      <category ware="computronicsubstrate" tags="[production, module]" race="terran" faction="[uee]" />
+      <compatibilities>
+        <limits production="1"/>
+        <production ware="computronicsubstrate" chance="20" />
+      </compatibilities>
+    </module>
+
+    <module id="uee_prod_ter_energycells" group="prod_ter_energycells" base="ter_solarpowerplant_2">
+      <category ware="energycells" tags="[production, module]" race="terran" faction="[uee]" />
+      <compatibilities>
+        <limits production="24"/>
+        <production ware="energycells" chance="75" />
+      </compatibilities>
+    </module>
+
+    <module id="uee_prod_ter_medicalsupplies" group="prod_ter_medicalsupplies">
+      <category ware="medicalsupplies" tags="[production, module]" race="terran" faction="[uee]" />
+      <compatibilities>
+        <production ware="medicalsupplies" chance="65" />
+      </compatibilities>
+    </module>
+
+    <module id="uee_prod_ter_metallicmicrolattice" group="prod_ter_metallicmicrolattice">
+      <category ware="metallicmicrolattice" tags="[production, module]" race="terran" faction="[uee]" />
+      <compatibilities>
+        <production ware="metallicmicrolattice" chance="65" />
+      </compatibilities>
+    </module>
+
+    <module id="uee_prod_ter_proteinpaste" group="prod_ter_proteinpaste">
+      <category ware="proteinpaste" tags="[production, module]" race="terran" faction="[uee]" />
+      <compatibilities>
+        <limits production="2"/>
+        <production ware="proteinpaste" chance="65" />
+        <production ware="medicalsupplies" chance="25" />
+        <production ware="terranmre" chance="10" />
+      </compatibilities>
+    </module>
+
+    <module id="uee_prod_ter_terranmre" group="prod_ter_terranmre">
+      <category ware="terranmre" tags="[production, module]" race="terran" faction="[uee]" />
+      <compatibilities>
+        <limits production="2"/>
+        <production ware="terranmre" chance="65" />
+        <production ware="proteinpaste" chance="10" />
+      </compatibilities>
+    </module>
+
+    <module id="uee_prod_ter_siliconcarbide" group="prod_ter_siliconcarbide">
+      <category ware="siliconcarbide" tags="[production, module]" race="terran" faction="[uee]" />
+      <compatibilities>
+        <limits production="3"/>
+        <production ware="siliconcarbide" chance="50" />
+      </compatibilities>
+    </module>
+
+    <module id="uee_prod_ter_stimulants" group="prod_ter_stimulants">
+      <category ware="stimulants" tags="[production, module]" race="terran" faction="[uee]" />
+      <compatibilities>
+        <production ware="stimulants" chance="65" />
+      </compatibilities>
+    </module>
+
+
+    <!-- Terran Storage Modules -->
+    <module id="stor_uee" group="stor_ter">
+      <category tags="[storage, module]" race="terran" faction="[uee]" />
+    </module>
+
+    <!-- Terran Dockarea Modules -->
+    <module id="dockarea_uee" group="dockarea_ter">
+      <category tags="[dockarea, module, lowtech, standard, hightech]" race="terran" faction="[uee]" />
+    </module>
+
+		<module id="dockarea_ter_hightech" group="dockarea_ter_hightech">
+			<category tags="[dockarea, module, hightech]" race="terran" faction="[uee]" />
+		</module>
+
+		<module id="dockarea_ter_lowtech" group="dockarea_ter_lowtech">
+			<category tags="[dockarea, module, lowtech]" race="terran" faction="[uee]" />
+		</module>
+
+    <!-- Terran Pier Modules -->
+    <module id="pier_base_uee" group="pier_base_ter">
+      <category tags="[pier, base, module]" race="terran" faction="[uee]" />
+    </module>
+
+    <module id="pier_add_uee" group="pier_add_ter">
+      <category tags="[pier, add, module]" race="terran" faction="[uee]" />
+    </module>
+
+    <module id="pier_tradestation_uee" group="pier_tradestation_ter">
+      <category tags="[pier, tradestation, module]" race="terran" faction="[uee]" />
+    </module>
+
+    <!-- Terran Habitation Modules -->
+    <module id="hab_uee" group="hab_ter">
+      <category tags="[habitation, module]" race="terran" faction="[uee]" />
+    </module>
+
+    <!-- Terran Defence Modules -->
+    <module id="def_uee" group="def_ter">
+      <category tags="[defence, module]" race="terran" faction="[uee]" />
+    </module>
+
+    <!-- Terran Ownership Claiming Modules -->
+    <module id="claim_uee" group="claim_ter">
+      <category tags="[claim, module]" race="terran" faction="[uee]" />
+    </module>
+
+    <!-- Terran Build Modules -->
+    <module id="build_uee" group="build_ter">
+      <category tags="[build, module]" race="terran" faction="[uee]" />
+    </module>
+
+    <!-- Terran Equipment Dock Modules -->
+    <module id="equip_uee" group="equip_ter">
+      <category tags="[equip, module]" race="terran" faction="[uee]" />
+    </module>
+
+    <!-- Terran Connection Modules -->
+    <module id="conn_uee" group="conn_ter">
+      <category tags="[connection, module]" race="terran" faction="[uee]" />
+    </module>
+
+    <!-- Terran Processing Modules -->
+    <module id="processing_uee" group="processing_ter">
+      <category tags="[processing, module]" race="terran" faction="[uee]" />
+    </module>
+  </add>
+
+  <!--Additional category data for base game entries-->
+  <add sel="/modules/module[@id='welfare_gen']/category">
+    <extension faction="[uee]"/>
+  </add>
+
+</diff>
