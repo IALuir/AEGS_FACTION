@@ -35,6 +35,7 @@
 	<replace sel="//wares/ware[@id='spirit_c1']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='redeemer']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='mole']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='polaris']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='engine_aegs_max_javelin_macro']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='engine_f8c_lightning_macro']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='engine_aegs_xl_bengal']/owner/@faction">uee</replace>
@@ -62,6 +63,7 @@
 	<replace sel="//wares/ware[@id='avenger_engine']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='redeemer_engine']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='mole_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='polaris_engine']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_bengal_singer_cannon']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s9_mxa']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s7_mxa']/owner/@faction">uee</replace>
@@ -121,6 +123,15 @@
 	<replace sel="//wares/ware[@id='turret_starlifter_s4_cf']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_starlifter_s4_gtx']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_starlifter_s4_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='polaris_turret_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='polaris_turret_ad']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='polaris_turret_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='polaris_turret_db']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='polaris_turret2_cf']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='polaris_turret2_gtx']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='polaris_turret2_mxa']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='polaris_turret2_sp']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='polaris_turret2_missile']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='reclaimer_turret_cf']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='reclaimer_turret_mxa']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='reclaimer_turret_gtx']/owner/@faction">uee</replace>
@@ -252,6 +263,7 @@
 	<replace sel="//wares/ware[@id='spirit_c1']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='redeemer']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='mole']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='polaris']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='engine_aegs_max_javelin_macro']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='engine_f8c_lightning_macro']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='engine_aegs_xl_bengal']/production/@name">{996665,1}</replace>
@@ -279,6 +291,7 @@
 	<replace sel="//wares/ware[@id='avenger_engine']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='redeemer_engine']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='mole_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='polaris_engine']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_bengal_singer_cannon']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s9_mxa']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s7_mxa']/production/@name">{996665,1}</replace>
@@ -338,6 +351,15 @@
 	<replace sel="//wares/ware[@id='turret_starlifter_s4_cf']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_starlifter_s4_gtx']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_starlifter_s4_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='polaris_turret_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='polaris_turret_ad']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='polaris_turret_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='polaris_turret_db']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='polaris_turret2_cf']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='polaris_turret2_gtx']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='polaris_turret2_mxa']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='polaris_turret2_sp']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='polaris_turret2_missile']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='reclaimer_turret_cf']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='reclaimer_turret_mxa']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='reclaimer_turret_gtx']/production/@name">{996665,1}</replace>
