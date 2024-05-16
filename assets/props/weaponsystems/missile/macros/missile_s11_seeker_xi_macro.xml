@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<diff/>
+<diff>
+	<replace sel="//macros/macro/properties/identification/@makerrace">uee</replace>
+</diff>
