@@ -148,6 +148,7 @@
 	<replace sel="//wares/ware[@id='aegs_l_s10']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='eclipse_missile']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s12_seeker_xii']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s10_typhoon_x']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s9_argos_ix']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s8_scimitar_viii']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s2_tempest_ii']/owner/@faction">uee</replace>
@@ -376,6 +377,7 @@
 	<replace sel="//wares/ware[@id='aegs_l_s10']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='eclipse_missile']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s12_seeker_xii']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s10_typhoon_x']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s9_argos_ix']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s8_scimitar_viii']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s2_tempest_ii']/production/@name">{996665,1}</replace>
