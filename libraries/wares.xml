@@ -36,6 +36,7 @@
 	<replace sel="//wares/ware[@id='redeemer']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='mole']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='polaris']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='prospector']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='engine_aegs_max_javelin_macro']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='engine_f8c_lightning_macro']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='engine_aegs_xl_bengal']/owner/@faction">uee</replace>
@@ -64,6 +65,7 @@
 	<replace sel="//wares/ware[@id='redeemer_engine']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='mole_engine']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='polaris_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='prospector_engine']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_bengal_singer_cannon']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s9_mxa']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s7_mxa']/owner/@faction">uee</replace>
@@ -219,6 +221,7 @@
 	<replace sel="//wares/ware[@id='weapon_gt870_s5']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='weapon_sf7e_s7']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='weapon_sf7b_s7']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='prospector_weapon']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='retribution_maingun_macro']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='retribution_l2x']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='retribution_sx']/owner/@faction">uee</replace>
@@ -265,6 +268,7 @@
 	<replace sel="//wares/ware[@id='redeemer']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='mole']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='polaris']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='prospector']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='engine_aegs_max_javelin_macro']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='engine_f8c_lightning_macro']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='engine_aegs_xl_bengal']/production/@name">{996665,1}</replace>
@@ -293,6 +297,7 @@
 	<replace sel="//wares/ware[@id='redeemer_engine']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='mole_engine']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='polaris_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='prospector_engine']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_bengal_singer_cannon']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s9_mxa']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s7_mxa']/production/@name">{996665,1}</replace>
@@ -448,6 +453,7 @@
 	<replace sel="//wares/ware[@id='weapon_gt870_s5']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='weapon_sf7e_s7']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='weapon_sf7b_s7']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='prospector_weapon']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='retribution_maingun_macro']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='retribution_l2x']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='retribution_sx']/production/@name">{996665,1}</replace>
