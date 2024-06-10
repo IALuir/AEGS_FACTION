@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/characters">
+
+    <!-- 势力代表 -->
+    <character name="uee.factionrepresentative">
+      <select character="uee.factionrepresentative.male" />
+      <select character="uee.factionrepresentative.female" />
+    </character>
+    <character name="uee.factionrepresentative.male">
+      <select character="uee.manager.male" />
+    </character>
+    <character name="uee.factionrepresentative.female">
+      <select character="uee.manager.female" />
+    </character>
+    <!-- 贸易商 -->
+    <character name="uee.trader">
+      <select character="uee.trader.male" />
+      <select character="uee.trader.female" />
+    </character>
+    <character name="uee.trader.male">
+      <select character="uee.manager.male" />
+    </character>
+    <character name="uee.trader.female">
+      <select character="uee.manager.female" />
+    </character>
+    <!-- 执照贸易商 -->
+    <character name="uee.licencetrader.female">
+      <select character="uee.manager.female" />
+    </character>
+    <!-- 舰艇贸易商 -->
+    <character name="uee.shiptrader">
+      <select character="uee.shiptrader.male" />
+      <select character="uee.shiptrader.female" />
+    </character>
+    <character name="uee.shiptrader.male">
+      <select character="uee.manager.male" />
+    </character>
+    <character name="uee.shiptrader.female">
+      <select character="uee.manager.female" />
+    </character>
+    <!-- 地勤 -->
+    <character name="uee.service">
+      <select character="uee.service.male" />
+      <select character="uee.service.female" />
+    </character>
+    <character name="uee.service.male">
+      <select macro="character_terran_male_cau_crew_01_macro" />
+      <select macro="character_terran_male_afr_crew_01_macro" />
+      <select macro="character_terran_male_asi_crew_01_macro" />
+    </character>
+    <character name="uee.service.female">
+      <select macro="character_terran_female_cau_crew_01_macro" />
+      <select macro="character_terran_female_afr_crew_01_macro" />
+      <select macro="character_terran_female_asi_crew_01_macro" />
+    </character>
+    <!-- 陆战队 -->
+    <character name="uee.marine">
+      <select character="uee.marine.male" />
+      <select character="uee.marine.female" />
+    </character>
+    <character name="uee.marine.male">
+      <select macro="character_terran_male_cau_marine_01_macro" />
+      <select macro="character_terran_male_afr_marine_01_macro" />
+      <select macro="character_terran_male_asi_marine_01_macro" />
+    </character>
+    <character name="uee.marine.female">
+      <select macro="character_terran_female_cau_marine_01_macro" />
+      <select macro="character_terran_female_afr_marine_01_macro" />
+      <select macro="character_terran_female_asi_marine_01_macro" />
+    </character>
+    <!-- 乘客 -->
+    <character name="uee.passenger">
+      <select character="uee.passenger.male" />
+      <select character="uee.passenger.female" />
+    </character>
+    <character name="uee.passenger.male">
+      <select character="uee.civilian.male" />
+    </character>
+    <character name="uee.passenger.female">
+      <select character="uee.civilian.female" />
+    </character>
+    <!-- 囚犯 -->
+    <character name="uee.prisoner">
+      <select character="uee.prisoner.male" />
+      <select character="uee.prisoner.female" />
+    </character>
+    <character name="uee.prisoner.male">
+      <select character="uee.civilian.male" />
+    </character>
+    <character name="uee.prisoner.female">
+      <select character="uee.civilian.female" />
+    </character>
+    <!-- 公民 -->
+    <character name="uee.civilian">
+      <select character="uee.civilian.male" />
+      <select character="uee.civilian.female" />
+    </character>
+    <character name="uee.civilian.male">
+      <select macro="character_terran_male_cau_civilian_01_macro" />
+      <select macro="character_terran_male_afr_civilian_01_macro" />
+      <select macro="character_terran_male_asi_civilian_01_macro" />
+    </character>
+    <character name="uee.civilian.female">
+      <select macro="character_terran_female_cau_civilian_01_macro" />
+      <select macro="character_terran_female_afr_civilian_01_macro" />
+      <select macro="character_terran_female_asi_civilian_01_macro" />
+    </character>
+    <!-- 飞行员 -->
+    <character name="uee.pilot">
+      <select character="uee.pilot.male" />
+      <select character="uee.pilot.female" />
+    </character>
+    <character name="uee.pilot.male">
+      <select macro="character_terran_male_cau_pilot_01_macro" />
+      <select macro="character_terran_male_afr_pilot_01_macro" />
+      <select macro="character_terran_male_asi_pilot_01_macro" />
+    </character>
+    <character name="uee.pilot.female">
+      <select macro="character_terran_female_cau_pilot_01_macro" />
+      <select macro="character_terran_female_afr_pilot_01_macro" />
+      <select macro="character_terran_female_asi_pilot_01_macro" />
+    </character>
+    <!-- 指挥官 -->
+    <character name="uee.commander">
+      <select character="uee.commander.male" />
+      <select character="uee.commander.female" />
+    </character>
+    <character name="uee.commander.male">
+      <select character="uee.pilot.male" />
+    </character>
+    <character name="uee.commander.female">
+      <select character="uee.pilot.female" />
+    </character>
+    <!-- 管理员 -->
+    <character name="uee.manager">
+      <select character="uee.manager.male" />
+      <select character="uee.manager.female" />
+    </character>
+    <character name="uee.manager.male">
+      <select macro="character_terran_male_cau_manager_01_macro" />
+      <select macro="character_terran_male_afr_manager_01_macro" />
+      <select macro="character_terran_male_asi_manager_01_macro" />
+    </character>
+    <character name="uee.manager.female">
+      <select macro="character_terran_female_cau_manager_01_macro" />
+      <select macro="character_terran_female_afr_manager_01_macro" />
+      <select macro="character_terran_female_asi_manager_01_macro" />
+    </character>
+
+  </add>
+</diff>

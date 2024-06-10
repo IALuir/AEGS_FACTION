@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+  <!-- 默认涂装 -->
+  <add sel="/themes/theme[@id='painttheme_race_default']">
+    <group faction="uee" paintmod="paintmod_0060" />
+  </add>
+
+  <!-- 其他涂装 -->
+  <add sel="/themes/theme[@id='painttheme_race_ship']">
+    <group faction="uee" selection="random" paintmod="">
+      <select paintmod="paintmod_0060" weight="5" />
+    </group>
+  </add>
+
+  
+  <add sel="/themes">
+    <theme id="painttheme_player_uee_999" default="error_theme" name="{996665,42}" tags="hidden noblueprint permit">
+      <group faction="uee" paintmod="" />
+      <group faction="player" paintmod="paintmod_0060" />
+    </theme>
+  </add>
+ 
+</diff>
+
+

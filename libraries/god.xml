@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
   <add sel="/god/stations">
-    
+    <station id="uee_shipyard01" race="terran" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1" zone="1" />
+      </quotas>
+      <location class="sector" macro="cluster_116_sector001_macro" />
+      <position x="0" y="0.0" z="0" pitch="0" roll="0" />
+      <station>
+        <select faction="uee" tags="[shipyard]" />
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
+
+    <station id="uee_equipmentdock01" race="terran" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1" zone="1" />
+      </quotas>
+      <location class="sector" macro="cluster_116_sector001_macro" />
+      <position x="85000" y="0.0" z="0" pitch="0" roll="0" />
+      <station>
+        <select faction="uee" tags="[wharf]" />
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
   </add>
+
+  <replace sel="/god/stations/station[@id='ter_defence_cluster_116_sector001']/@owner">uee</replace>
 </diff>

@@ -13,6 +13,9 @@
 
 		<!-- 运输 -->
 		<group name="uee_trader_container_l">
+			<select macro="ship_ter_l_trans_container_01_a_macro" weight="100"/>
+		</group>
+		<group name="uee_trader_container_l_2">
 			<select macro="starlifter_c2_macro" weight="70"/>
 			<select macro="spirit_c1_macro" weight="30"/>
 		</group>
@@ -27,27 +30,27 @@
 
 		<!-- 矿工 -->
 		<group name="uee_miner_solid_l">
-			<select macro="ship_ter_l_miner_solid_01_a_macro" weight="100"/>
+			<select macro="mole_macro" weight="100"/>
 		</group>
 		<group name="uee_miner_liquid_l">
 			<select macro="ship_ter_l_miner_liquid_01_a_macro" weight="100"/>
 		</group>
 		<group name="uee_miner_solid_m">
-			<select macro="ship_ter_m_miner_solid_01_a_macro" weight="100"/>
+			<select macro="mole_macro" weight="100"/>
 		</group>
 		<group name="uee_miner_liquid_m">
 			<select macro="ship_ter_m_miner_liquid_01_a_macro" weight="100"/>
-		</group>
-		<group name="uee_miner_solid_mixed">
-			<select macro="ship_ter_l_miner_solid_01_a_macro" weight="40"/>
-			<select macro="ship_ter_m_miner_solid_01_a_macro" weight="60"/>
 		</group>
 		<group name="uee_miner_liquid_mixed">
 			<select macro="ship_ter_l_miner_liquid_01_a_macro" weight="40"/>
 			<select macro="ship_ter_m_miner_liquid_01_a_macro" weight="60"/>
 		</group>
+		<group name="uee_miner_solid_mixed">
+			<select macro="mole_macro" weight="40"/>
+			<select macro="prospector_macro" weight="60"/>
+		</group>
 		<group name="uee_miner_solid_s">
-			<select macro="ship_ter_s_miner_solid_01_a_macro" weight="100"/>
+			<select macro="prospector_macro" weight="100"/>
 		</group>
 
 		<!-- 军用 -->
@@ -69,12 +72,14 @@
 			<select macro="ship_aegs_idris_p_macro" weight="70"/>
 		</group>
 		<group name="uee_gunboat_military_m">
-			<select macro="aegs_hammer_macro" weight="40"/>
-			<select macro="redeemer_macro" weight="60"/>
+			<select macro="aegs_hammer_macro" weight="50"/>
+			<select macro="polaris_macro" weight="20"/>
+			<select macro="redeemer_macro" weight="30"/>
 		</group>
 		<group name="uee_bomber_military_m">
 			<select macro="starlifter_a2_macro" weight="20"/>
-			<select macro="retaliator_macro" weight="60"/>
+			<select macro="retaliator_macro" weight="40"/>
+			<select macro="polaris_macro" weight="20"/>
 			<select macro="spirit_a1_macro" weight="20"/>
 		</group>
 		<group name="uee_frigate_military_m">

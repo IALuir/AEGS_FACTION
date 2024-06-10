@@ -5,6 +5,12 @@
     <do_elseif value="$Faction == faction.uee and $Target.owner == faction.terran">
       <set_value name="$FindMilitaryShipTags" exact="[tag.peacekeeping]"/>
     </do_elseif>
+    <do_elseif value="$Faction == faction.uee and $Target.owner == faction.xenon">
+      <set_value name="$FindMilitaryShipTags" exact="[tag.peacekeeping]"/>
+    </do_elseif>
+    <do_elseif value="$Faction == faction.uee and $Target.owner == faction.argon">
+      <set_value name="$FindMilitaryShipTags" exact="[tag.peacekeeping]"/>
+    </do_elseif>
   </add>
 
 

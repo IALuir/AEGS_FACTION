@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Setup_MOD_AEGS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<!--Run Start_Actions on a new game-->
+		<cue name="Start" namespace="this">
+		<actions>
+			<include_actions ref="Start_Actions"/>
+			<cancel_cue cue="Game_Loaded"/>
+		</actions>
+		</cue>
 
-<diff>
-<!-- for new games only,for savegames it is loaded in factionlogic.xml -->
-    <add sel="/mdscript/cues/cue[@name='Start']/actions/set_value[@name='md.$EquipmentTable']" pos="after">
-        <get_ware_definition result="md.$EquipmentTable.{faction.uee}" faction="faction.uee" />
-	</add>
-	<add sel="/mdscript/cues/cue[@name='Start']/actions/set_value[@name='md.$FactionData']" pos="after">
-		<set_value name="md.$FactionData.{faction.uee}" exact="table[]" />
-	</add>
-		
+		<!--Run Start_Actions when loading a savegame with the MOD enabled for the first time-->
+		<cue name="Game_Loaded" namespace="this">
+		<conditions>
+			<event_game_loaded/>
+		</conditions>
+		<actions>
+			<include_actions ref="Start_Actions"/>
+			<cancel_cue cue="Start"/>
+		</actions>
+		</cue>
 
-</diff>
+		<library name="Start_Actions">
+			<actions>
+				<do_if value="not md.$EquipmentTable?">
+					<set_value name="md.$EquipmentTable" exact="table[]"/>
+				</do_if>
+				<get_ware_definition result="md.$EquipmentTable.{faction.uee}" faction="faction.uee" flags="equipment" />
+				<do_if value="not md.$FactionData?">
+					<set_value name="md.$FactionData" exact="table[]"/>
+				</do_if>
+				<!-- Set up empty tables to track faction HQs and representatives throughout the game -->
+				<do_if value="not md.$FactionData.{faction.uee}?">
+					<set_value name="md.$FactionData.{faction.uee}" exact="table[]" />
+				</do_if>
+				<!-- MOD FactionLists (Prevent tables being set multiple times) -->
+				<do_if value="not md.$ueeFactions?">
+					<set_value name="md.$ueeFactions" exact="[]" />
+				</do_if>
+				<append_list_elements name="md.$ueeFactions" other="[faction.terran, faction.pioneers]"/>
+			</actions>
+		</library>
+	</cues>
+</mdscript>
  
