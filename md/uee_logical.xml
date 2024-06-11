@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="uee_logical" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+    <cue name="start" instantiate="true">
+			<conditions>
+        <check_any>
+					<event_game_started />
+					<event_game_loaded />
+				</check_any>
+      </conditions>
+			<actions>
+        <create_group groupname="$Object_bengal"/>
+        <find_ship name="$Object" macro="macro.ship_aegs_l_bengal_macro"  multiple="true" />
+        <do_for_each name="$ship" in="$Object">
+          <add_to_group groupname="$Object_bengal" object="$ship"/>
+        </do_for_each>
+			</actions>
+			<cues>
+				<cue name="constellation_andromeda_p52_dock_01" instantiate="true">
+          <conditions>
+              <event_object_destroyed group="$Object_bengal"/>
+          </conditions>
+          <actions>
+            <do_if value="$Object_bengal.count == 0">
+              <set_job_active job="'uee_retribution'" activate="true"/>
+            </do_if>
+          </actions>
+        </cue>
+			</cues>
+		</cue>
+  </cues>
+</mdscript>

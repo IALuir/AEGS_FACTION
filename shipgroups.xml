@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff>
+	<add sel="//groups">
+	
+
+
+  <group name="uee_battleship_xl">
+    <select macro="retribution_macro" weight="100"/>
+  </group>
+  <group name="atf_destroyer_l">
+    <select macro="ship_aegs_l_javelin_macro" weight="100"/>
+  </group>
+  <group name="teratf_destroyer_l">
+    <select macro="ship_aegs_l_javelin_macro" weight="100"/>
+  </group>
+
+  <group name="uee_carrier_xl">
+    <select macro="ship_aegs_l_bengal_macro" weight="100"/>
+    <select macro="ship_drak_kraken_macro" weight="50"/>
+  </group>
+  <group name="uee_destroyer_l">
+    <select macro="ship_aegs_l_javelin_macro" weight="100"/>
+    <select macro="ship_aegs_idris_macro" weight="100"/>
+    <select macro="ship_aegs_idris_p_macro" weight="100"/>
+  </group>
+  <group name="uee_military_m">
+			<select macro="aegs_hammer_macro" weight="50"/>
+			<select macro="polaris_macro" weight="20"/>
+			<select macro="redeemer_macro" weight="30"/>
+			<select macro="starlifter_a2_macro" weight="20"/>
+			<select macro="retaliator_macro" weight="40"/>
+			<select macro="polaris_macro" weight="20"/>
+			<select macro="spirit_a1_macro" weight="20"/>
+			<select macro="starlifter_a2_macro" weight="40"/>
+			<select macro="constellation_andromeda_macro" weight="60"/>
+  </group>
+  <group name="uee_fighuee_s">
+			<select macro="f7a_macro" weight="50"/>
+			<select macro="f7cm_macro" weight="40"/>
+			<select macro="f7cr_macro" weight="10"/>
+  </group>
+  <group name="uee_fighuee_heavy_s">
+			<select macro="scorpius_macro" weight="50"/>
+			<select macro="starfighter_macro" weight="20"/>
+			<select macro="vanguard_macro" weight="20"/>
+			<select macro="scorpius_antares_macro" weight="10"/>
+			<select macro="f8c_lightning_a_macro" weight="80"/>
+			<select macro="starfighter_macro" weight="20"/>
+  </group>
+  <group name="uee_fighuee_light_s">
+			<select macro="arrow_macro" weight="30"/>
+			<select macro="f7cr_macro" weight="70"/>
+  </group>
+	</add>
+</diff>

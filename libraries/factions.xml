@@ -22,13 +22,13 @@
         <licence type="station_gen_basic" name="{996665,17}" minrelation="-0.01" price="1000"/>
         <licence type="station_gen_intermediate" name="{996665,18}" minrelation="0.01" precursor="ceremonyfriend" price="1000"/>
         <licence type="tradesubscription" name="{996665,19}" description="{20207,4002}" minrelation="0.1" precursor="ceremonyally" price="15000000" />
-        <licence type="police" factions="terran" />
-        <licence type="capitalequipment" factions="terran" />
-        <licence type="capitalship" factions="terran" />
-        <licence type="generaluseequipment" factions="terran" />
-        <licence type="generaluseship" factions="terran" />
-        <licence type="militaryequipment" factions="terran" />
-        <licence type="militaryship" factions="terran" />
+        <licence type="police" factions="uee" />
+        <licence type="capitalequipment" factions="uee" />
+        <licence type="capitalship" factions="uee" />
+        <licence type="generaluseequipment" factions="uee" />
+        <licence type="generaluseship" factions="uee" />
+        <licence type="militaryequipment" factions="uee" />
+        <licence type="militaryship" factions="uee" />
       </licences>
 
       <relations>
@@ -53,7 +53,7 @@
         <relation faction="trinity" relation="-0.011" />
         <relation faction="xenon" relation="-1" />
         <relation faction="yaki" relation="-1" />
-        <relation faction="terran" relation="1" />
+        <relation faction="terran" relation="-0.1" />
       </relations>
     </faction>
 
@@ -123,7 +123,7 @@
     <relation faction="uee" relation="0" />
   </add>
   <add sel="/factions/faction[@id='terran']/relations">
-    <relation faction="uee" relation="1" />
+    <relation faction="uee" relation="-0.1" />
   </add>
   <add sel="/factions/faction[@id='trinity']/relations">
     <relation faction="uee" relation="-0.1" />

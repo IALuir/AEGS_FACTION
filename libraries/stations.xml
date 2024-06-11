@@ -5,10 +5,6 @@
 			<category tags="tradestation" faction="[uee]" />
 		</station>
 
-		<station id="tradestation_uee" group="tradestation_uee">
-			<category tags="tradestation" faction="[uee]" />
-		</station>
-
 		<station id="shipyard_uee" group="shipyard_uee">
 			<category tags="shipyard" faction="[uee]" />
 		</station>

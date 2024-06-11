@@ -498,15 +498,6 @@
 	<replace sel="//wares/ware[@id='bengal_turret_gat']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='bengal_turret_medium_gun']/production/@name">{996665,1}</replace>
 
-	<add sel="//wares/ware[@id='ship_atf_l_destroyer_01_a']">
-		<owner faction="uee" />
-	</add>
-	<add sel="//wares/ware[@id='ship_atf_xl_battleship_01_a']">
-		<owner faction="uee" />
-	</add>
-	<add sel="//wares/ware[@id='ship_ter_l_destroyer_01_a']">
-		<owner faction="uee" />
-	</add>
 	<add sel="//wares/ware[@id='ship_ter_xl_builder_01_a']">
 		<owner faction="uee" />
 	</add>
@@ -536,9 +527,52 @@
 		<owner faction="uee" />
 	</add>
 
-	<add sel="//wares/ware[@id='ship_ter_xl_carrier_01_a']">
+	<add sel="//wares/ware[@id='shield_ter_l_standard_01_mk1']">
 		<owner faction="uee" />
 	</add>
+	<add sel="//wares/ware[@id='shield_ter_l_standard_01_mk2']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_l_standard_01_mk3']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_m_standard_01_mk1']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_m_standard_01_mk2']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_m_standard_01_mk3']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_m_standard_02_mk1']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_m_standard_02_mk2']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_m_standard_02_mk3']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_m_standard_01_mk3']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_s_standard_01_mk1']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_s_standard_01_mk2']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_s_standard_01_mk3']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_xl_standard_01_mk1']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='shield_ter_xl_standard_01_mk2']">
+		<owner faction="uee" />
+	</add>
+
 	<add sel="//wares/ware[@id='ship_ter_xs_police_01_a']">
 		<owner faction="uee" />
 	</add>

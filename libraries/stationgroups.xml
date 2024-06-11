@@ -6,13 +6,13 @@
     </group>
 
     <group name="tradestation_uee">
-      <select constructionplan="ter_logisticsdock" />
-      <select constructionplan="ter_supportstation" />
-      <select constructionplan="ter_supplybase" />
+      <select constructionplan="ter_logisticsdock" weight="20"/>
+      <select constructionplan="ter_supportstation" weight="20"/>
+      <select constructionplan="ter_supplybase" weight="60"/>
     </group>
 
     <group name="shipyard_uee">
-      <select constructionplan="ter_shipyard" />
+      <select constructionplan="uee_shipyard" />
     </group>
 
     <group name="wharf_uee">

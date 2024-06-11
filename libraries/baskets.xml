@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+  <add sel="/baskets">
+    <basket id="computronicsubstrate">
+      <wares>
+        <ware ware="computronicsubstrate" />
+      </wares>
+    </basket>
+
+    <basket id="metallicmicrolattice">
+      <wares>
+        <ware ware="metallicmicrolattice" />
+      </wares>
+    </basket>
+
+    <basket id="siliconcarbide">
+      <wares>
+        <ware ware="siliconcarbide" />
+      </wares>
+    </basket>
+
+    <basket id="proteinpaste">
+      <wares>
+        <ware ware="proteinpaste" />
+      </wares>
+    </basket>
+
+    <basket id="terranmre">
+      <wares>
+        <ware ware="terranmre" />
+      </wares>
+    </basket>
+
+    <basket id="stimulants">
+      <wares>
+        <ware ware="stimulants" />
+      </wares>
+    </basket>
+
+    <basket id="construction_ships_uee" name="Ship Construction Wares" description="Basket for wares necessary for uee ship construction">
+      <wares>
+        <ware ware="computronicsubstrate" />
+        <ware ware="metallicmicrolattice" />
+        <ware ware="siliconcarbide" />
+      </wares>
+    </basket>
+
+    <basket id="construction_stations_uee" name="Station Construction Wares" description="Basket for wares necessary for uee station construction">
+      <wares>
+        <ware ware="computronicsubstrate" />
+        <ware ware="siliconcarbide" />
+      </wares>
+    </basket>
+
+    <basket id="bio_uee" name="uee Bio Wares" description="Basket for all tradable bio-level wares relevant to the uee economy">
+      <wares>
+        <ware ware="proteinpaste" />
+      </wares>
+    </basket>
+
+    <basket id="food_uee" name="uee Food Wares" description="Basket for all tradable uee food-level wares">
+      <wares>
+        <ware ware="terranmre" />
+        <ware ware="medicalsupplies" />
+      </wares>
+    </basket>
+
+    <basket id="tech_uee" name="Tech Wares" description="Basket for all tradable uee tech-level wares">
+      <wares>
+        <ware ware="computronicsubstrate" />
+        <ware ware="metallicmicrolattice" />
+        <ware ware="siliconcarbide" />
+      </wares>
+    </basket>
+
+    <basket id="refined_gas_uee" name="Refined Gas Wares" description="Basket for all refined gas wares. High throughput.">
+      <wares>
+        <ware ware="antimattercells" />
+        <ware ware="graphene" />
+        <ware ware="superfluidcoolant" />
+        <ware ware="computronicsubstrate" />
+        <ware ware="metallicmicrolattice" />
+        <ware ware="siliconcarbide" />
+      </wares>
+    </basket>
+
+    <basket id="refined_mineral_uee" name="Refined Mineral Wares" description="Basket for all refined mineral wares. High throughput.">
+      <wares>
+        <ware ware="computronicsubstrate" />
+        <ware ware="metallicmicrolattice" />
+        <ware ware="siliconcarbide" />
+        <ware ware="refinedmetals" />
+        <ware ware="siliconwafers" />
+        <ware ware="teladianium" />
+      </wares>
+    </basket>
+
+    <basket id="all_container_uee" name="All Container Wares used by uee race" description="Basket for all uee container wares">
+      <wares>
+        <ware ware="energycells" />
+        <ware ware="computronicsubstrate" />
+        <ware ware="metallicmicrolattice" />
+        <ware ware="siliconcarbide" />
+        <ware ware="proteinpaste" />
+        <ware ware="terranmre" />
+        <ware ware="medicalsupplies" />
+        <ware ware="stimulants" />
+      </wares>
+    </basket>
+
+  </add>
+
+  <add sel="/baskets/basket[@id='bio']/wares">
+    <ware ware="proteinpaste" />
+  </add>
+
+  <add sel="/baskets/basket[@id='food']/wares">
+    <ware ware="terranmre" />
+  </add>
+
+  <add sel="/baskets/basket[@id='equipment']/wares">
+    <ware ware="computronicsubstrate" />
+    <ware ware="metallicmicrolattice" />
+    <ware ware="siliconcarbide" />
+  </add>
+
+  <add sel="/baskets/basket[@id='tech']/wares">
+    <ware ware="computronicsubstrate" />
+    <ware ware="metallicmicrolattice" />
+    <ware ware="siliconcarbide" />
+  </add>
+
+  <add sel="/baskets/basket[@id='global_illegal']/wares">
+    <ware ware="stimulants" />
+  </add>
+
+  <add sel="/baskets/basket[@id='pirate_container']/wares">
+    <ware ware="computronicsubstrate" />
+    <ware ware="metallicmicrolattice" />
+    <ware ware="siliconcarbide" />
+  </add>
+
+  <add sel="/baskets/basket[@id='all']/wares">
+    <ware ware="computronicsubstrate" />
+    <ware ware="metallicmicrolattice" />
+    <ware ware="siliconcarbide" />
+    <ware ware="proteinpaste" />
+    <ware ware="terranmre" />
+    <ware ware="stimulants" />
+  </add>
+
+  <add sel="/baskets/basket[@id='all_container']/wares">
+    <ware ware="computronicsubstrate" />
+    <ware ware="metallicmicrolattice" />
+    <ware ware="siliconcarbide" />
+    <ware ware="proteinpaste" />
+    <ware ware="terranmre" />
+    <ware ware="stimulants" />
+  </add>
+
+</diff>

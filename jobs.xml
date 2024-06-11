@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff> 
+  <add sel="//jobs">
+
+  	<job id="uee_carrier_xl_002" name="{996665,20}" comment="defence">
+		<modifiers commandeerable="true" />
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.zone"/>
+				<param name="targetclasses" value="[macro.class]"/>
+			</order>
+		</orders>
+		<category faction="uee" tags="[factionlogic, military, carrier, defence]" size="ship_xl"/>
+		<quota galaxy="5" cluster="8" sector="5"/>
+   		<location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" />
+		<ship>
+			<select faction="uee" tags="[military, carrier]" size="ship_xl"/>
+			<loadout>
+				<level min="1.0" max="1.0" />
+				<variation exact="1.0"/>
+			</loadout>
+			<owner exact="uee" overridenpc="true"/>
+		</ship>
+			<subordinates>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_frigate_patrol_m_sector_exp" assignment="attack" />
+        <subordinate job="uee_frigate_patrol_m_sector_mission" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack_mission" assignment="attack" />
+        <subordinate job="uee_scout_patrol_s" assignment="attack" />
+        <subordinate job="uee_police_patrol_s" assignment="attack" />
+			</subordinates>	
+	  </job>	  
+
+  	<job id="uee_carrier_xl_0578" name="{996665,21}" comment="defence">
+		<modifiers commandeerable="true" />
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.zone"/>
+				<param name="targetclasses" value="[macro.class]"/>
+			</order>
+		</orders>
+		<category faction="uee" tags="[factionlogic, military, carrier, defence]" size="ship_xl"/>
+		<quota galaxy="5" cluster="8" sector="5"/>
+   		<location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" />
+		<ship>
+			<select faction="uee" tags="[military, carrier]" size="ship_xl"/>
+			<loadout>
+				<level min="1.0" max="1.0" />
+				<variation exact="1.0"/>
+			</loadout>
+			<owner exact="uee" overridenpc="true"/>
+		</ship>
+			<subordinates>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_frigate_patrol_m_sector_exp" assignment="attack" />
+        <subordinate job="uee_frigate_patrol_m_sector_mission" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack_mission" assignment="attack" />
+        <subordinate job="uee_scout_patrol_s" assignment="attack" />
+        <subordinate job="uee_police_patrol_s" assignment="attack" />
+			</subordinates>	
+	  </job>	  
+
+  	<job id="uee_carrier_xl_015876" name="{996665,2101}" comment="defence">
+		<modifiers commandeerable="true" />
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.zone"/>
+				<param name="targetclasses" value="[macro.class]"/>
+			</order>
+		</orders>
+		<category faction="uee" tags="[factionlogic, military, carrier, defence]" size="ship_xl"/>
+		<quota galaxy="5" cluster="8" sector="5"/>
+   		<location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" />
+		<ship>
+			<select faction="uee" tags="[military, carrier]" size="ship_xl"/>
+			<loadout>
+				<level min="1.0" max="1.0" />
+				<variation exact="1.0"/>
+			</loadout>
+			<owner exact="uee" overridenpc="true"/>
+		</ship>
+			<subordinates>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_frigate_patrol_m_sector_exp" assignment="attack" />
+        <subordinate job="uee_frigate_patrol_m_sector_mission" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack_mission" assignment="attack" />
+        <subordinate job="uee_scout_patrol_s" assignment="attack" />
+        <subordinate job="uee_police_patrol_s" assignment="attack" />
+			</subordinates>	
+	  </job>	  
+
+  	<job id="uee_carrier_xl_7864538" name="{996665,2102}" comment="defence">
+		<modifiers commandeerable="true" />
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.zone"/>
+				<param name="targetclasses" value="[macro.class]"/>
+			</order>
+		</orders>
+		<category faction="uee" tags="[factionlogic, military, carrier, defence]" size="ship_xl"/>
+		<quota galaxy="5" cluster="8" sector="5"/>
+   		<location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" />
+		<ship>
+			<select faction="uee" tags="[military, carrier]" size="ship_xl"/>
+			<loadout>
+				<level min="1.0" max="1.0" />
+				<variation exact="1.0"/>
+			</loadout>
+			<owner exact="uee" overridenpc="true"/>
+		</ship>
+			<subordinates>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_frigate_patrol_m_sector_exp" assignment="attack" />
+        <subordinate job="uee_frigate_patrol_m_sector_mission" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack_mission" assignment="attack" />
+        <subordinate job="uee_scout_patrol_s" assignment="attack" />
+        <subordinate job="uee_police_patrol_s" assignment="attack" />
+			</subordinates>	
+	  </job>	  
+
+  	<job id="uee_carrier_xl_789453" name="{996665,2103}" comment="defence">
+		<modifiers commandeerable="true" />
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.zone"/>
+				<param name="targetclasses" value="[macro.class]"/>
+			</order>
+		</orders>
+		<category faction="uee" tags="[factionlogic, military, carrier, defence]" size="ship_xl"/>
+		<quota galaxy="8" cluster="8" sector="8"/>
+   		<location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" />
+		<ship>
+			<select faction="uee" tags="[military, carrier]" size="ship_xl"/>
+			<loadout>
+				<level min="1.0" max="1.0" />
+				<variation exact="1.0"/>
+			</loadout>
+			<owner exact="uee" overridenpc="true"/>
+		</ship>
+			<subordinates>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_frigate_patrol_m_sector_exp" assignment="attack" />
+        <subordinate job="uee_frigate_patrol_m_sector_mission" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack_mission" assignment="attack" />
+        <subordinate job="uee_scout_patrol_s" assignment="attack" />
+        <subordinate job="uee_police_patrol_s" assignment="attack" />
+			</subordinates>	
+	  </job>	  
+
+
+    <job id="uee_battleship_patrol_xl_luna" name="{996665,20}">
+      <modifiers commandeerable="false"/>
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.zone"/>
+          <param name="stayinspace" value="true"/>
+        </order>
+      </orders>
+      <category faction="uee" tags="[factionlogic, military, battleship, uee]" size="ship_xl"/>
+      <quota galaxy="8" cluster="8" sector="8"/>
+   		<location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="uee" tags="[military, battleship, uee]" size="ship_xl"/>
+        <loadout>
+          <level exact="1"/>
+          <variation exact="0"/>
+        </loadout>
+        <owner exact="uee" overridenpc="true"/>
+      </ship>
+			<subordinates>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_destroyer_patrol_l_mars" assignment="defence"/>
+        <subordinate job="uee_frigate_patrol_m_sector_exp" assignment="attack" />
+        <subordinate job="uee_frigate_patrol_m_sector_mission" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack" assignment="attack" />
+        <subordinate job="uee_corvette_patrol_m_sector_pack_mission" assignment="attack" />
+        <subordinate job="uee_scout_patrol_s" assignment="attack" />
+        <subordinate job="uee_police_patrol_s" assignment="attack" />
+			</subordinates>	
+    </job>
+    <job id="uee_destroyer_patrol_l_mars" name="{996665,21}">
+      <modifiers commandeerable="false"/>
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.zone"/>
+          <param name="stayinspace" value="true"/>
+        </order>
+      </orders>
+      <category faction="uee" tags="[factionlogic, military, destroyer]" size="ship_l"/>
+      <quota galaxy="8" cluster="8" sector="8"/>
+   		<location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="uee" tags="[military, destroyer, noatf]" size="ship_l"/>
+        <loadout>
+          <level exact="1"/>
+          <variation exact="0"/>
+        </loadout>
+        <owner exact="uee" overridenpc="true"/>
+      </ship>
+    </job>
+
+    <job id="uee_destroyer_patrol_l_mobile_pack" name="{996665,2101}">
+      <modifiers commandeerable="true"/>
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.zone"/>
+        </order>
+      </orders>
+      <category faction="uee" tags="[factionlogic, military, destroyer]" size="ship_l"/>
+      <quota galaxy="8" cluster="8" sector="8"/>
+   		<location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="uee" tags="[military, destroyer, noatf]" size="ship_l"/>
+        <loadout>
+          <level exact="0.7"/>
+        </loadout>
+        <owner exact="uee" overridenpc="true"/>
+      </ship>
+    </job>
+
+
+    <job id="uee_frigate_patrol_m_sector_exp" name="{20204,2901}" comment="each sector, expansion">
+      <modifiers commandeerable="false"/>
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.zone"/>
+        </order>
+      </orders>
+      <category faction="uee" tags="[military]" size="ship_m"/>
+      <quota galaxy="17" maxgalaxy="39" sector="3"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="uee" tags="[military, selection]" size="ship_m"/>
+        <loadout>
+          <level min="0.4" max="1.0"/>
+        </loadout>
+        <owner exact="uee" overridenpc="true"/>
+      </ship>
+      <subordinates>
+        <subordinate job="terran_fighter_escort_s_frigate"/>
+      </subordinates>
+    </job>
+    <job id="uee_frigate_patrol_m_sector_mission" name="{20204,2901}" comment="each sector">
+      <modifiers commandeerable="true"/>
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.sector"/>
+        </order>
+      </orders>
+      <category faction="uee" tags="[military]" size="ship_m"/>
+      <quota galaxy="7" maxgalaxy="7" sector="1"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="uee" tags="[military, selection]" size="ship_m"/>
+        <loadout>
+          <level min="0.4" max="1.0"/>
+        </loadout>
+        <owner exact="uee" overridenpc="true"/>
+      </ship>
+      <subordinates>
+        <subordinate job="terran_fighter_escort_s_frigate"/>
+      </subordinates>
+    </job>
+
+    <job id="uee_corvette_patrol_m_sector_pack" name="{20204,2901}" comment="each sector">
+      <modifiers commandeerable="true"/>
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.zone"/>
+        </order>
+      </orders>
+      <category faction="uee" tags="[factionlogic, military, corvette]" size="ship_m"/>
+      <quota galaxy="8" maxgalaxy="27" sector="1"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="uee" tags="[military, corvette]" size="ship_m"/>
+        <loadout>
+          <level min="0.4" max="1.0"/>
+        </loadout>
+        <owner exact="uee" overridenpc="true"/>
+      </ship>
+      <subordinates>
+        <subordinate job="terran_corvette_escort_m" assignment="attack"/>
+      </subordinates>
+    </job>
+    <job id="uee_corvette_patrol_m_sector_pack_mission" name="{20204,2901}" comment="each sector">
+      <modifiers commandeerable="true"/>
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.sector"/>
+        </order>
+      </orders>
+      <category faction="uee" tags="[military, corvette]" size="ship_m"/>
+      <quota galaxy="5" maxgalaxy="5" sector="1"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="uee" tags="[military, corvette]" size="ship_m"/>
+        <loadout>
+          <level min="0.4" max="1.0"/>
+        </loadout>
+        <owner exact="uee" overridenpc="true"/>
+      </ship>
+      <subordinates>
+        <subordinate job="terran_corvette_escort_m" assignment="attack"/>
+      </subordinates>
+    </job>
+
+    <job id="uee_scout_patrol_s" name="{20204,7201}">
+      <modifiers commandeerable="true"/>
+      <orders>
+        <order order="Recon" default="true">
+          <param name="deploysatellites" value="true"/>
+        </order>
+      </orders>
+      <category faction="uee" tags="[factionlogic, military, scout]" size="ship_s"/>
+      <quota galaxy="10" cluster="2"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="lt" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="uee" tags="[scout]" size="ship_s"/>
+        <loadout>
+          <level min="0.7" max="1.0"/>
+        </loadout>
+        <owner exact="uee" overridenpc="true"/>
+      </ship>
+    </job>
+
+    <job id="uee_police_patrol_s" name="{20204,6101}">
+      <modifiers commandeerable="false"/>
+      <orders>
+        <order order="Police" default="true"/>
+      </orders>
+      <category faction="uee" tags="[police]"/>
+      <quota galaxy="60" sector="4"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="uee" tags="[police]"/>
+        <loadout>
+          <level min="0.1" max="0.7"/>
+        </loadout>
+        <owner exact="uee" overridenpc="true"/>
+      </ship>
+    </job>
+
+
+
+  </add>
+
+</diff>
