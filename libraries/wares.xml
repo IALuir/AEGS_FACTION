@@ -2,6 +2,7 @@
 <diff>
 	<replace sel="//wares/ware[@id='retribution']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='ship_aegs_l_bengal']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='ship_aegs_l_bengal_b']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='ship_aegs_l_javelin']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='f8c_lightning']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='f8c_lightning_a']/owner/@faction">uee</replace>
@@ -39,9 +40,15 @@
 	<replace sel="//wares/ware[@id='prospector']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='carrack']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='c8x']/owner/@faction">uee</replace>
-	<replace sel="//wares/ware[@id='engine_aegs_max_javelin_macro']/owner/@faction">uee</replace>
-	<replace sel="//wares/ware[@id='engine_f8c_lightning_macro']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='caterpillar']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='defender']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='sabre_firebrid']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='sabre_raven']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='sabre_peregrine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='engine_aegs_max_javelin']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='engine_f8c_lightning']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='engine_aegs_xl_bengal']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='engine_aegs_xl_bengal_b']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='hammerhead_engine']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='retaliator_engine']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='scorpius_engine']/owner/@faction">uee</replace>
@@ -70,7 +77,13 @@
 	<replace sel="//wares/ware[@id='prospector_engine']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='carrack_engine']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='c8x_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='caterpillar_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='defender_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='sabre_firebrid_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='sabre_raven_engine']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='sabre_peregrine_engine']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_bengal_singer_cannon']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='turret_bengal_singer_cannon_b']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s9_mxa']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s7_mxa']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s5_mxa']/owner/@faction">uee</replace>
@@ -166,14 +179,21 @@
 	<replace sel="//wares/ware[@id='mole_turret2']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='aegs_l_s10']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='eclipse_missile']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_sabre_firebrid_missile']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_blade_missile']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s12_seeker_xii']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s10_typhoon_x']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s9_argos_ix']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s8_scimitar_viii']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s2_tempest_ii']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s2_ignite_ii']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s2_dominator_ii']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s3_viper_iii']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s3_arrester_iii']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s3_thunderbolt_iii']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s3_viper_iii_firebrid']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s3_arrester_iii_firebrid']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='missile_s3_thunderbolt_iii_firebrid']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s1_taskforce_i']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s1_spark_i']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='missile_s1_marksman_i']/owner/@faction">uee</replace>
@@ -239,7 +259,7 @@
 	<replace sel="//wares/ware[@id='weapon_sf7e_s7']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='weapon_sf7b_s7']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='prospector_weapon']/owner/@faction">uee</replace>
-	<replace sel="//wares/ware[@id='retribution_maingun_macro']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='retribution_maingun']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='retribution_l2x']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='retribution_sx']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='bengal_turret_ai_cf']/owner/@faction">uee</replace>
@@ -248,9 +268,38 @@
 	<replace sel="//wares/ware[@id='bengal_turret_aa']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='bengal_turret_gat']/owner/@faction">uee</replace>
 	<replace sel="//wares/ware[@id='bengal_turret_medium_gun']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_akura']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_obscura']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_bila']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_sheut']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_umbra']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_shimmer']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_nargun']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_vell']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_mirage']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_aspis']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_barbican']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_bulwark']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_citadel']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_guardian']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_pallsade']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_parapet']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_rampart']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_stronghold']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_allstop']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_coverall']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_forcewall']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fr66']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fr76']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fr86']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fr96']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fullblock']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fullstop']/owner/@faction">uee</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_sukoran']/owner/@faction">uee</replace>
 
 	<replace sel="//wares/ware[@id='retribution']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='ship_aegs_l_bengal']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='ship_aegs_l_bengal_b']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='ship_aegs_l_javelin']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='f8c_lightning']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='f8c_lightning_a']/production/@name">{996665,1}</replace>
@@ -288,9 +337,15 @@
 	<replace sel="//wares/ware[@id='prospector']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='carrack']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='c8x']/production/@name">{996665,1}</replace>
-	<replace sel="//wares/ware[@id='engine_aegs_max_javelin_macro']/production/@name">{996665,1}</replace>
-	<replace sel="//wares/ware[@id='engine_f8c_lightning_macro']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='caterpillar']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='defender']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='sabre_firebrid']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='sabre_raven']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='sabre_peregrine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='engine_aegs_max_javelin']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='engine_f8c_lightning']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='engine_aegs_xl_bengal']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='engine_aegs_xl_bengal_b']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='hammerhead_engine']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='retaliator_engine']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='scorpius_engine']/production/@name">{996665,1}</replace>
@@ -319,7 +374,13 @@
 	<replace sel="//wares/ware[@id='prospector_engine']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='carrack_engine']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='c8x_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='caterpillar_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='defender_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='sabre_firebrid_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='sabre_raven_engine']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='sabre_peregrine_engine']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_bengal_singer_cannon']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='turret_bengal_singer_cannon_b']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s9_mxa']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s7_mxa']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='turret_javelin_s5_mxa']/production/@name">{996665,1}</replace>
@@ -415,14 +476,21 @@
 	<replace sel="//wares/ware[@id='mole_turret2']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='aegs_l_s10']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='eclipse_missile']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_sabre_firebrid_missile']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='wepon_missile_blade_missile']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s12_seeker_xii']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s10_typhoon_x']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s9_argos_ix']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s8_scimitar_viii']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s2_tempest_ii']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s2_ignite_ii']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s2_dominator_ii']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s3_viper_iii']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s3_arrester_iii']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s3_thunderbolt_iii']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s3_viper_iii_firebrid']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s3_arrester_iii_firebrid']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='missile_s3_thunderbolt_iii_firebrid']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s1_taskforce_i']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s1_spark_i']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='missile_s1_marksman_i']/production/@name">{996665,1}</replace>
@@ -488,7 +556,7 @@
 	<replace sel="//wares/ware[@id='weapon_sf7e_s7']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='weapon_sf7b_s7']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='prospector_weapon']/production/@name">{996665,1}</replace>
-	<replace sel="//wares/ware[@id='retribution_maingun_macro']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='retribution_maingun']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='retribution_l2x']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='retribution_sx']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='bengal_turret_ai_cf']/production/@name">{996665,1}</replace>
@@ -497,6 +565,34 @@
 	<replace sel="//wares/ware[@id='bengal_turret_aa']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='bengal_turret_gat']/production/@name">{996665,1}</replace>
 	<replace sel="//wares/ware[@id='bengal_turret_medium_gun']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_akura']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_obscura']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_bila']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_sheut']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_umbra']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_shimmer']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_nargun']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_vell']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_civilian_mirage']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_aspis']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_barbican']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_bulwark']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_citadel']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_guardian']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_pallsade']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_parapet']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_rampart']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_industrial_stronghold']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_allstop']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_coverall']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_forcewall']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fr66']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fr76']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fr86']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fr96']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fullblock']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_fullstop']/production/@name">{996665,1}</replace>
+	<replace sel="//wares/ware[@id='shield_aegs_millitary_sukoran']/production/@name">{996665,1}</replace>
 
 	<add sel="//wares/ware[@id='ship_ter_xl_builder_01_a']">
 		<owner faction="uee" />
@@ -514,6 +610,25 @@
 		<owner faction="uee" />
 	</add>
 
+	<add sel="//wares/ware[@id='turret_ter_l_beam_01_mk1']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='turret_ter_m_beam_02_mk1']">
+		<owner faction="uee" />
+	</add>
+
+	<add sel="//wares/ware[@id='engine_ter_s_allround_01_mk1']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='engine_ter_s_combat_01_mk1']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='engine_ter_m_allround_01_mk1']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='engine_ter_m_combat_01_mk1']">
+		<owner faction="uee" />
+	</add>
 	<add sel="//wares/ware[@id='engine_ter_l_allround_01_mk1']">
 		<owner faction="uee" />
 	</add>
@@ -678,7 +793,13 @@
 	<add sel="//wares/ware[@id='module_ter_stor_solid_s_01']">
 		<owner faction="uee" />
 	</add>
-	<add sel="//wares/ware[@id='module_gen_build_dockarea_m_01']">
+	<add sel="//wares/ware[@id='module_ter_build_dockarea_m_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_build_l_01']">
+		<owner faction="uee" />
+	</add>
+	<add sel="//wares/ware[@id='module_ter_build_xl_01']">
 		<owner faction="uee" />
 	</add>
 </diff>

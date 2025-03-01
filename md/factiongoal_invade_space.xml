@@ -3,13 +3,13 @@
 
   <add sel="/mdscript/cues/cue[@name='Start']/actions/do_if[@value='$ExpeditionForce and @$ExpeditionShipTagPatchMarker']" pos="after">
     <do_elseif value="$Faction == faction.uee and $Target.owner == faction.terran">
-      <set_value name="$FindMilitaryShipTags" exact="[tag.peacekeeping]"/>
+      <set_value name="$FindMilitaryShipTags" exact="[tag.intervention]"/>
     </do_elseif>
     <do_elseif value="$Faction == faction.uee and $Target.owner == faction.xenon">
-      <set_value name="$FindMilitaryShipTags" exact="[tag.peacekeeping]"/>
+      <set_value name="$FindMilitaryShipTags" exact="[tag.intervention]"/>
     </do_elseif>
     <do_elseif value="$Faction == faction.uee and $Target.owner == faction.argon">
-      <set_value name="$FindMilitaryShipTags" exact="[tag.peacekeeping]"/>
+      <set_value name="$FindMilitaryShipTags" exact="[tag.intervention]"/>
     </do_elseif>
   </add>
 

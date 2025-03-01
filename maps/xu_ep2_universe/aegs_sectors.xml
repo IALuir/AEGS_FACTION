@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <!-- 泰拉 I -->
+  <macro name="AEGS_cluster01_sector001_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+      <connection name="AEGS_cluster01_sector001_zone001_connection" ref="zones">
+        <offset>
+          <position x="153750.5" y="0" z="-60340.15234375" />
+        </offset>
+        <macro ref="AEGS_cluster01_sector001_zone001_macro" connection="sector" />
+      </connection>
+    </connections>
+  </macro>
+  <!-- 派罗 I -->
+  <macro name="AEGS_cluster02_sector001_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+      <connection name="AEGS_cluster02_sector001_GateZone01_connection" ref="zones">
+        <offset>
+          <position x="50000" y="0" z="-200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector001SHCon6_GateZone_macro" connection="sector" />
+      </connection>
+      <connection name="AEGS_cluster02_sector001_GateZone02_connection" ref="zones">
+        <offset>
+          <position x="-35487.578125" y="0" z="-200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector001SHCon10_GateZone_macro" connection="sector" />
+      </connection>
+      <connection name="AEGS_cluster02_sector001_GateZone03_connection" ref="zones">
+        <offset>
+          <position x="-35156" y="0" z="200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector001SHCon9_GateZone_macro" connection="sector" />
+      </connection>
+      <connection name="AEGS_cluster02_sector001_GateZone04_connection" ref="zones">
+        <offset>
+          <position x="-50000" y="0" z="200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector001SHCon5_GateZone_macro" connection="sector" />
+      </connection>
+
+    </connections>
+  </macro>
+<!-- 派罗 II -->
+  <macro name="AEGS_cluster02_sector002_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+      <connection name="AEGS_cluster02_sector002_GateZone01_connection" ref="zones">
+        <offset>
+          <position x="35730.46875" y="0" z="200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector002SHCon5_GateZone_macro" connection="sector" />
+      </connection>
+      <connection name="AEGS_cluster02_sector002_GateZone02_connection" ref="zones">
+        <offset>
+          <position x="50000" y="0" z="200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector002SHCon9_GateZone_macro" connection="sector" />
+      </connection>
+      
+
+      <connection name="AEGS_cluster02_sector002_zone001_connection" ref="zones">
+        <offset>
+          <position x="0" y="0" z="-220000" />
+        </offset>
+        <macro ref="AEGS_cluster02_sector002_zone001_macro" connection="sector" />
+      </connection>
+    </connections>
+  </macro>
+  <!-- 派罗 III -->
+  <macro name="AEGS_cluster02_sector003_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+      <connection name="AEGS_cluster02_sector003_GateZone01_connection" ref="zones">
+        <offset>
+          <position x="8314" y="0" z="-201765" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector003SHCon10_GateZone_macro" connection="sector" />
+      </connection>
+      <connection name="AEGS_cluster02_sector003_GateZone02_connection" ref="zones">
+        <offset>
+          <position x="-6197" y="0" z="-201765" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector003SHCon6_GateZone_macro" connection="sector" />
+      </connection>
+
+      <connection name="AEGS_cluster02_sector003_zone001_connection" ref="zones">
+        <offset>
+          <position x="-20000" y="0" z="220340.15234375" />
+        </offset>
+        <macro ref="AEGS_cluster02_sector003_zone001_macro" connection="sector" />
+      </connection>
+    </connections>
+  </macro>
+  <!-- 斯坦顿 I -->
+  <macro name="AEGS_cluster03_sector001_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+      <connection name="AEGS_cluster03_sector001_GateZone01_connection" ref="zones">
+        <offset>
+          <position x="50000" y="0" z="-200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector001SHCon6_GateZone_macro" connection="sector" />
+      </connection>
+      <connection name="AEGS_cluster03_sector001_GateZone02_connection" ref="zones">
+        <offset>
+          <position x="-35487.578125" y="0" z="-200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector001SHCon10_GateZone_macro" connection="sector" />
+      </connection>
+      <connection name="AEGS_cluster03_sector001_GateZone03_connection" ref="zones">
+        <offset>
+          <position x="-35156" y="0" z="200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector001SHCon9_GateZone_macro" connection="sector" />
+      </connection>
+      <connection name="AEGS_cluster03_sector001_GateZone04_connection" ref="zones">
+        <offset>
+          <position x="-50000" y="0" z="200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector001SHCon5_GateZone_macro" connection="sector" />
+      </connection>
+
+      <connection name="AEGS_cluster03_sector001_zone001_connection" ref="zones">
+        <offset>
+          <position x="223750.5" y="0" z="20340.15234375" />
+        </offset>
+        <macro ref="AEGS_cluster03_sector001_zone001_macro" connection="sector" />
+      </connection>
+    </connections>
+  </macro>
+  <!-- 斯坦顿 II -->
+  <macro name="AEGS_cluster03_sector002_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+      <connection name="AEGS_cluster03_sector002_GateZone01_connection" ref="zones">
+        <offset>
+          <position x="35730.46875" y="0" z="200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector002SHCon5_GateZone_macro" connection="sector" />
+      </connection>
+      <connection name="AEGS_cluster03_sector002_GateZone02_connection" ref="zones">
+        <offset>
+          <position x="50000" y="0" z="200000" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector002SHCon9_GateZone_macro" connection="sector" />
+      </connection>
+      
+
+      <connection name="AEGS_cluster03_sector002_zone001_connection" ref="zones">
+        <offset>
+          <position x="-303750.5" y="0" z="20340.15234375" />
+        </offset>
+        <macro ref="AEGS_cluster03_sector002_zone001_macro" connection="sector" />
+      </connection>
+    </connections>
+  </macro>
+  <!-- 斯坦顿 III -->
+  <macro name="AEGS_cluster03_sector003_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+      <connection name="AEGS_cluster03_sector003_GateZone01_connection" ref="zones">
+        <offset>
+          <position x="8314" y="0" z="-201765" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector003SHCon10_GateZone_macro" connection="sector" />
+      </connection>
+      <connection name="AEGS_cluster03_sector003_GateZone02_connection" ref="zones">
+        <offset>
+          <position x="-6197" y="0" z="-201765" />
+        </offset>
+        <macro ref="tzoneCluster_108_Sector003SHCon6_GateZone_macro" connection="sector" />
+      </connection>
+
+      <connection name="AEGS_cluster03_sector003_zone001_connection" ref="zones">
+        <offset>
+          <position x="0" y="0" z="220000" />
+        </offset>
+        <macro ref="AEGS_cluster03_sector003_zone001_macro" connection="sector" />
+      </connection>
+    </connections>
+  </macro>
+  <!-- 马格努斯 I -->
+  <macro name="AEGS_cluster04_sector001_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+      <connection name="AEGS_cluster04_sector001_zone001_connection" ref="zones">
+        <offset>
+          <position x="-223750.5" y="0" z="-120340.15234375" />
+        </offset>
+        <macro ref="AEGS_cluster04_sector001_zone001_macro" connection="sector" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

@@ -2,7 +2,7 @@
 <diff>
 
   <add sel="/mdscript/cues/library[@name='Econ_Manager']/cues/cue[@name='Request_Production_Module']/actions/set_value[@name='$CheckProductionCompatibility']" pos="after">
-    <do_if value="$Faction == faction.uee or $Faction == faction.terran or $Faction == faction.pioneers">
+    <do_if value="$Faction == faction.uee">
       <set_value name="$CheckProductionCompatibility" exact="true"/>
     </do_if>
   </add>

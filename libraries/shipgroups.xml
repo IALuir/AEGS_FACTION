@@ -13,15 +13,18 @@
 
 		<!-- 运输 -->
 		<group name="uee_trader_container_l">
-			<select macro="ship_ter_l_trans_container_01_a_macro" weight="100"/>
+			<select macro="ship_ter_l_trans_container_01_a_macro" weight="70"/>
+			<select macro="caterpillar_macro" weight="30"/>
 		</group>
 		<group name="uee_trader_container_l_2">
-			<select macro="starlifter_c2_macro" weight="70"/>
+			<select macro="caterpillar_macro" weight="70"/>
+			<select macro="starlifter_c2_macro" weight="50"/>
 			<select macro="spirit_c1_macro" weight="30"/>
 		</group>
 		<group name="uee_trader_container_m">
 			<select macro="spirit_c1_macro" weight="70"/>
 			<select macro="starlifter_c2_macro" weight="30"/>
+			<select macro="carrack_macro" weight="10"/>
 		</group>
 		<group name="uee_trader_container_s">
 			<select macro="avenger_macro" weight="70"/>
@@ -30,20 +33,21 @@
 
 		<!-- 矿工 -->
 		<group name="uee_miner_solid_l">
-			<select macro="mole_macro" weight="100"/>
+			<select macro="mole_macro" weight="80"/>
+			<select macro="ship_drak_kraken_macro" weight="20"/>
 		</group>
 		<group name="uee_miner_liquid_l">
-			<select macro="ship_ter_l_miner_liquid_01_a_macro" weight="100"/>
+			<select macro="mole_macro" weight="100"/>
 		</group>
 		<group name="uee_miner_solid_m">
 			<select macro="mole_macro" weight="100"/>
 		</group>
 		<group name="uee_miner_liquid_m">
-			<select macro="ship_ter_m_miner_liquid_01_a_macro" weight="100"/>
+			<select macro="mole_macro" weight="100"/>
 		</group>
 		<group name="uee_miner_liquid_mixed">
-			<select macro="ship_ter_l_miner_liquid_01_a_macro" weight="40"/>
-			<select macro="ship_ter_m_miner_liquid_01_a_macro" weight="60"/>
+			<select macro="mole_macro" weight="40"/>
+			<select macro="prospector_macro" weight="60"/>
 		</group>
 		<group name="uee_miner_solid_mixed">
 			<select macro="mole_macro" weight="40"/>
@@ -56,6 +60,9 @@
 		<!-- 军用 -->
 		<group name="uee_battleship_military_xl">
 			<select macro="retribution_macro" weight="100"/>
+		</group>
+		<group name="uee_cruiser_military_l">
+			<select macro="ship_aegs_l_bengal_b_macro" weight="100"/>
 		</group>
 		<group name="uee_destroyer_military_l">
 			<select macro="ship_aegs_l_javelin_macro" weight="100"/>
@@ -87,18 +94,20 @@
 			<select macro="constellation_andromeda_macro" weight="60"/>
 		</group>
 		<group name="uee_fighter_military_s">
-			<select macro="f7a_macro" weight="50"/>
-			<select macro="f7cm_macro" weight="40"/>
+			<select macro="f7a_macro" weight="40"/>
+			<select macro="f7cm_macro" weight="10"/>
 			<select macro="f7cr_macro" weight="10"/>
+			<select macro="sabre_macro" weight="20"/>
+			<select macro="sabre_raven_macro" weight="30"/>
 		</group>
 		<group name="uee_bomber_military_s">
-			<select macro="f7a_macro" weight="20"/>
+			<select macro="f7a_macro" weight="40"/>
 			<select macro="eclipse_macro" weight="40"/>
-			<select macro="f7cm_macro" weight="40"/>
+			<select macro="f7cm_macro" weight="20"/>
 		</group>
 		<group name="uee_fighter_heavy_military_s">
 			<select macro="scorpius_macro" weight="50"/>
-			<select macro="starfighter_macro" weight="20"/>
+			<select macro="starfighter_macro" weight="30"/>
 			<select macro="vanguard_macro" weight="20"/>
 			<select macro="scorpius_antares_macro" weight="10"/>
 		</group>
@@ -130,28 +139,32 @@
 			<select macro="constellation_andromeda_macro" weight="80"/>
 		</group>
 		<group name="uee_fighter_s">
-			<select macro="f7c_macro" weight="50"/>
+			<select macro="f7c_macro" weight="20"/>
 			<select macro="f7cm_macro" weight="20"/>
 			<select macro="f7cr_macro" weight="10"/>
 			<select macro="gladius_macro" weight="20"/>
+			<select macro="sabre_macro" weight="20"/>
+			<select macro="sabre_raven_macro" weight="20"/>
 		</group>
 		<group name="uee_bomber_s">
-			<select macro="f7c_macro" weight="20"/>
-			<select macro="eclipse_macro" weight="40"/>
-			<select macro="f7cm_macro" weight="40"/>
+			<select macro="sabre_firebrid_macro" weight="40"/>
+			<select macro="eclipse_macro" weight="60"/>
+			<select macro="f7cm_macro" weight="20"/>
 		</group>
 		<group name="uee_fighter_heavy_s">
 			<select macro="cutlass_macro" weight="50"/>
 			<select macro="starfighter_macro" weight="10"/>
 			<select macro="vanguard_macro" weight="40"/>
+			<select macro="sabre_firebrid_macro" weight="20"/>
 		</group>
 		<group name="uee_fighter_heavy_ace_s">
 			<select macro="f8c_lightning_macro" weight="80"/>
 			<select macro="starfighter_macro" weight="20"/>
 		</group>
 		<group name="uee_scout_s">
-			<select macro="arrow_macro" weight="80"/>
+			<select macro="arrow_macro" weight="60"/>
 			<select macro="talon_macro" weight="20"/>
+			<select macro="defender_macro" weight="20"/>
 		</group>
 
 		<group name="uee_p52">

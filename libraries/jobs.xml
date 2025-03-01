@@ -11,7 +11,7 @@
         </order>
       </orders>
       <category faction="uee" tags="[builder]" size="ship_xl"/>
-      <quota galaxy="6" sector="1"/>
+      <quota galaxy="3" sector="1"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
       <environment preferbuilding="true" buildatshipyard="true"/>
       <ship>
@@ -27,7 +27,7 @@
       <orders>
         <order order="SupplyFleet" default="true"/>
       </orders>
-      <quota galaxy="4" sector="1"/>
+      <quota galaxy="2" sector="1"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
       <environment preferbuilding="true" buildatshipyard="true"/>
       <ship>
@@ -91,7 +91,7 @@
       <category faction="uee" tags="[intervention, military, battleship]" size="ship_xl"/>
       <quota galaxy="1"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
-      <environment buildatshipyard="false"/>
+      <environment buildatshipyard="true"/>
       <ship>
         <select faction="uee" tags="[military, battleship]" size="ship_xl"/>
         <loadout>
@@ -100,19 +100,19 @@
         <owner exact="uee" overridenpc="true"/>
       </ship>
       <subordinates>
+        <subordinate job="uee_cruiser_escort_l" assignment="defence"/>
         <subordinate job="uee_destroyer_escort_l" assignment="defence"/>
         <subordinate job="uee_frigate_escort_l" assignment="attack"/>
         <subordinate job="uee_escort_fighter_military_ace_s" assignment="defence"/>
         <subordinate job="uee_escort_fighter_military_ace_s" assignment="defence"/>
         <subordinate job="uee_escort_fighter_military_ace_s" assignment="defence"/>
-        <subordinate job="uee_escort_bomber_military_m" assignment="defence"/>
+        <subordinate job="uee_escort_bomber_military_m" assignment="attack"/>
         <subordinate job="uee_escort_gunboat_military_m" assignment="defence"/>
         <subordinate job="uee_escort_frigate_military_m" assignment="defence"/>
         <subordinate job="uee_escort_bomber_military_s" assignment="attack" />
         <subordinate job="uee_resupplier_escort_xl" assignment="supplyfleet" group="10"/>
       </subordinates>
     </job>
-
 <!-- 军用舰队-孟加拉 -->
     <job id="uee_carrier_bengal_01" name="{996665,20}">
       <modifiers commandeerable="true"/>
@@ -133,6 +133,7 @@
         <owner exact="uee" overridenpc="true"/>
       </ship>
       <subordinates>
+        <subordinate job="uee_cruiser_escort_l" assignment="defence"/>
         <subordinate job="uee_destroyer_escort_l" assignment="defence"/>
         <subordinate job="uee_frigate_escort_l" assignment="defence"/>
         <subordinate job="uee_escort_fighter_military_ace_s" assignment="defence"/>
@@ -141,7 +142,7 @@
         <subordinate job="uee_escort_bomber_military_s" assignment="attack" />
         <subordinate job="uee_escort_gunboat_military_m" assignment="defence"/>
         <subordinate job="uee_escort_frigate_military_m" assignment="defence"/>
-        <subordinate job="uee_escort_bomber_military_m" assignment="defence"/>
+        <subordinate job="uee_escort_bomber_military_m" assignment="attack"/>
         <subordinate job="uee_resupplier_escort_xl" assignment="supplyfleet" group="10"/>
       </subordinates>
     </job>
@@ -164,6 +165,7 @@
         <owner exact="uee" overridenpc="true"/>
       </ship>
       <subordinates>
+        <subordinate job="uee_cruiser_escort_l" assignment="defence"/>
         <subordinate job="uee_destroyer_escort_l" assignment="defence"/>
         <subordinate job="uee_frigate_escort_l" assignment="defence"/>
         <subordinate job="uee_escort_heavy_fighter_military_s" assignment="defence"/>
@@ -182,8 +184,8 @@
           <param name="range" value="class.sector"/>
         </order>
       </orders>
-      <category faction="uee" tags="[factionlogic ,military, carrier, defence]" size="ship_l"/>
-      <quota galaxy="1" sector="1"/>
+      <category faction="uee" tags="[factionlogic ,military, carrier]" size="ship_l"/>
+      <quota galaxy="3" sector="1"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
@@ -194,6 +196,7 @@
         <owner exact="uee" overridenpc="true"/>
       </ship>
       <subordinates>
+        <subordinate job="uee_cruiser_escort_l" assignment="defence"/>
         <subordinate job="uee_destroyer_escort_l" assignment="defence"/>
         <subordinate job="uee_frigate_escort_l" assignment="defence"/>
         <subordinate job="uee_escort_fighter_military_s" assignment="defence"/>
@@ -214,7 +217,7 @@
         </order>
       </orders>
       <category faction="uee" tags="[factionlogic ,military, medium, gunboat]" size="ship_m"/>
-      <quota galaxy="10" sector="2"/>
+      <quota galaxy="24" sector="3"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
@@ -228,6 +231,29 @@
         <subordinate job="uee_escort_fighter_military_s_small" assignment="attack"/>
       </subordinates>
     </job>
+    <!-- 军用舰队-巡逻-巡洋 -->
+    <job id="uee_cruiser_bengal_01" name="{996665,28}">
+      <modifiers commandeerable="true"/>
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.sector"/>
+        </order>
+      </orders>
+      <category faction="uee" tags="[factionlogic ,military, cruiser]" size="ship_l"/>
+      <quota galaxy="4" sector="1"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="uee" tags="[military,cruiser]" size="ship_l"/>
+        <loadout>
+          <level min="0.6" max="1.0"/>
+        </loadout>
+        <owner exact="uee" overridenpc="true"/>
+      </ship>
+      <subordinates>
+        <subordinate job="uee_destroyer_escort_l" assignment="attack"/>
+      </subordinates>
+    </job>
     <!-- 军用舰队-巡逻-驱逐 -->
     <job id="uee_destroyer_javelin_01" name="{996665,28}">
       <modifiers commandeerable="true"/>
@@ -237,7 +263,7 @@
         </order>
       </orders>
       <category faction="uee" tags="[factionlogic ,military, destroyer]" size="ship_l"/>
-      <quota galaxy="4" sector="1"/>
+      <quota galaxy="8" sector="1"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
@@ -260,7 +286,7 @@
         </order>
       </orders>
       <category faction="uee" tags="[factionlogic ,military, frigate, mixed]" size="ship_l"/>
-      <quota galaxy="6" sector="1"/>
+      <quota galaxy="12" sector="2"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
@@ -276,6 +302,26 @@
     </job>
 
 <!-- 下属舰队 -->
+    <job id="uee_cruiser_escort_l" name="{996665,65}" startactive="false">
+      <orders>
+        <order order="Escort" default="true">
+          <param name="formation" value="formationshape.xshapeforward"/>
+          <param name="overrideformationskill" value="true"/>
+        </order>
+      </orders>
+      <category faction="uee" tags="[military, cruiser]" size="ship_l"/>
+      <quota wing="2"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro"/>
+      <environment buildatshipyard="true"/>
+      <modifiers subordinate="true"/>
+      <ship>
+        <select faction="uee" tags="[military, cruiser]" size="ship_l"/>
+        <loadout>
+          <level min="0.8" max="1.0"/>
+        </loadout>
+        <owner exact="uee" overridenpc="true"/>
+      </ship>
+    </job>
     <job id="uee_destroyer_escort_l" name="{996665,22}" startactive="false">
       <orders>
         <order order="Escort" default="true">
@@ -284,7 +330,7 @@
         </order>
       </orders>
       <category faction="uee" tags="[military, destroyer]" size="ship_l"/>
-      <quota wing="2"/>
+      <quota wing="3"/>
       <location class="galaxy" macro="xu_ep2_universe_macro"/>
       <environment buildatshipyard="true"/>
       <modifiers subordinate="true"/>
@@ -304,7 +350,7 @@
         </order>
       </orders>
       <category faction="uee" tags="[military, frigate]" size="ship_l"/>
-      <quota wing="3"/>
+      <quota wing="5"/>
       <location class="galaxy" macro="xu_ep2_universe_macro"/>
       <environment buildatshipyard="true"/>
       <modifiers subordinate="true"/>
@@ -511,7 +557,7 @@
       </orders>
       <basket basket="gases"/>
       <category faction="uee" tags="[freighter ,miner, liquid]" size="ship_l"/>
-      <quota galaxy="4"/>
+      <quota galaxy="36"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="neutral" comparison="ge" regionbasket="gases" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
@@ -542,7 +588,7 @@
       </orders>
       <basket basket="gases"/>
       <category faction="uee" tags="[freighter ,miner, liquid]" size="ship_m"/>
-      <quota galaxy="12"/>
+      <quota galaxy="64"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="neutral" comparison="ge" regionbasket="gases" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
@@ -570,7 +616,7 @@
       </orders>
       <basket basket="minerals"/>
       <category faction="uee" tags="[freighter ,miner, solid]" size="ship_m"/>
-      <quota galaxy="60"/>
+      <quota galaxy="64"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="neutral" comparison="ge" regionbasket="minerals" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
@@ -598,7 +644,7 @@
       </orders>
       <basket basket="minerals"/>
       <category faction="uee" tags="[freighter ,miner, solid]" size="ship_s"/>
-      <quota galaxy="40"/>
+      <quota galaxy="96"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="neutral" comparison="ge" regionbasket="minerals" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
@@ -624,15 +670,15 @@
         </order>
       </orders>
       <category faction="uee" tags="[freighter, miner ,carrier, deepspace]"/>
-      <quota galaxy="3" maxgalaxy="4" sector="1"/>
+      <quota galaxy="8" maxgalaxy="12" sector="2"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" regionbasket="minerals" matchextension="false"/>
       <environment buildatshipyard="true"/>
-      <basket basket="gases"/>
+      <basket basket="minerals"/>
       <modifiers subordinate="true"/>
       <ship>
-        <select faction="uee" tags="[civilian, carrier, mission, deepspace]"/>
+        <select faction="uee" tags="[miner, solid]" size="ship_l"/>
         <loadout>
-          <level min="0.4" max="0.8"/>
+          <level min="0.8" max="1.0"/>
         </loadout>
         <owner exact="uee" overridenpc="true"/>
       </ship>
@@ -806,157 +852,115 @@
       </ship>
     </job>
     <!-- 民用舰队-运输贸易 -->
-    <job id="uee_food_trader_l" name="{996665,34}">
+    <job id="uee_all_trader_l" name="{996665,34}">
       <modifiers rebuild="false" commandeerable="true"/>
       <orders>
         <order order="TradeRoutine" default="true">
           <param name="minbuy" value="0"/>
-          <param name="maxbuy" value="5"/>
+          <param name="maxbuy" value="10"/>
           <param name="minsell" value="0"/>
-          <param name="maxsell" value="5"/>
+          <param name="maxsell" value="10"/>
         </order>
       </orders>
-      <basket basket="food_uee"/>
+      <basket basket="all_container_uee"/>
       <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_l"/>
-      <quota galaxy="3" cluster="4"/>
+      <quota galaxy="36" cluster="12"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
         <select faction="uee" tags="[trader, container]" size="ship_l"/>
         <loadout>
-          <level min="0.4" max="0.8"/>
+          <level min="0.6" max="0.8"/>
         </loadout>
         <owner exact="uee" overridenpc="true"/>
       </ship>
     </job>
 
-    <job id="uee_food_trader_m" name="{996665,34}">
+    <job id="uee_all_trader_m" name="{996665,34}">
       <modifiers rebuild="false" commandeerable="true"/>
       <orders>
         <order order="Middleman" default="true">
-          <param name="range" value="5"/>
+          <param name="range" value="7"/>
         </order>
       </orders>
-      <basket basket="food_uee"/>
+      <basket basket="all_container_uee"/>
       <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_m"/>
-      <quota galaxy="15" cluster="8" sector="6"/>
+      <quota galaxy="64" cluster="16" sector="8"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
         <select faction="uee" tags="[trader, container]" size="ship_m"/>
         <loadout>
-          <level min="0.4" max="0.8"/>
+          <level min="0.6" max="0.8"/>
         </loadout>
         <owner exact="uee" overridenpc="true"/>
       </ship>
     </job>
 
-    <job id="uee_food_trader_s" name="{996665,34}">
+    <job id="uee_all_trader_s" name="{996665,34}">
       <modifiers rebuild="false" commandeerable="true"/>
       <orders>
         <order order="Middleman" default="true">
-          <param name="range" value="3"/>
+          <param name="range" value="4"/>
         </order>
       </orders>
-      <basket basket="food_uee"/>
+      <basket basket="all_container_uee"/>
       <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_s"/>
-      <quota galaxy="30" cluster="10" sector="5"/>
+      <quota galaxy="48" cluster="24" sector="12"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
         <select faction="uee" tags="[trader, container]" size="ship_s"/>
         <loadout>
-          <level min="0.4" max="0.8"/>
+          <level min="0.6" max="0.8"/>
         </loadout>
         <owner exact="uee" overridenpc="true"/>
       </ship>
     </job>
 
-    <job id="uee_medical_trader_s" name="{996665,35}">
-      <modifiers rebuild="false" commandeerable="true"/>
-      <orders>
-        <order order="Middleman" default="true">
-          <param name="range" value="3"/>
-        </order>
-      </orders>
-      <basket basket="medicalsupplies"/>
-      <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_s"/>
-      <quota galaxy="5" sector="1"/>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
-      <environment buildatshipyard="true"/>
-      <ship>
-        <select faction="uee" tags="[trader, container]" size="ship_s"/>
-        <loadout>
-          <level min="0.3" max="0.7"/>
-        </loadout>
-        <owner exact="uee" overridenpc="true"/>
-      </ship>
-    </job>
-
-    <job id="uee_energycell_trader_l" name="{996665,36}">
+    <job id="uee_all_trader_l_longrange" name="{996665,37}">
       <modifiers rebuild="false" commandeerable="true"/>
       <orders>
         <order order="TradeRoutine" default="true">
           <param name="minbuy" value="0"/>
-          <param name="maxbuy" value="5"/>
+          <param name="maxbuy" value="8"/>
           <param name="minsell" value="0"/>
-          <param name="maxsell" value="5"/>
+          <param name="maxsell" value="12"/>
         </order>
       </orders>
-      <basket basket="energycells"/>
+      <basket basket="all_container_uee"/>
       <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_l"/>
-      <quota galaxy="4" cluster="1"/>
+      <quota galaxy="6" cluster="3"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
         <select faction="uee" tags="[trader, container]" size="ship_l"/>
         <loadout>
-          <level min="0.4" max="0.8"/>
+          <level min="0.6" max="0.8"/>
         </loadout>
         <owner exact="uee" overridenpc="true"/>
       </ship>
     </job>
 
-    <job id="uee_energycell_trader_m" name="{996665,36}">
+    <job id="uee_all_trader_m_longrange" name="{996665,37}">
       <modifiers rebuild="false" commandeerable="true"/>
       <orders>
         <order order="TradeRoutine" default="true">
           <param name="minbuy" value="0"/>
-          <param name="maxbuy" value="5"/>
+          <param name="maxbuy" value="8"/>
           <param name="minsell" value="0"/>
-          <param name="maxsell" value="5"/>
+          <param name="maxsell" value="12"/>
         </order>
       </orders>
-      <basket basket="energycells"/>
+      <basket basket="all_container_uee"/>
       <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_m"/>
-      <quota galaxy="20" cluster="5" sector="4"/>
+      <quota galaxy="24" cluster="12" sector="6"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
         <select faction="uee" tags="[trader, container]" size="ship_m"/>
         <loadout>
-          <level min="0.4" max="0.8"/>
-        </loadout>
-        <owner exact="uee" overridenpc="true"/>
-      </ship>
-    </job>
-
-    <job id="uee_energycell_trader_s" name="{996665,36}">
-      <modifiers rebuild="false" commandeerable="true"/>
-      <orders>
-        <order order="Middleman" default="true">
-          <param name="range" value="5"/>
-        </order>
-      </orders>
-      <basket basket="energycells"/>
-      <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_s"/>
-      <quota galaxy="5" cluster="1" />
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
-      <environment buildatshipyard="true"/>
-      <ship>
-        <select faction="uee" tags="[trader, container]" size="ship_s"/>
-        <loadout>
-          <level min="0.4" max="0.8"/>
+          <level min="0.8" max="1.0"/>
         </loadout>
         <owner exact="uee" overridenpc="true"/>
       </ship>
@@ -967,14 +971,14 @@
       <orders>
         <order order="TradeRoutine" default="true">
           <param name="minbuy" value="0"/>
-          <param name="maxbuy" value="4"/>
+          <param name="maxbuy" value="8"/>
           <param name="minsell" value="0"/>
-          <param name="maxsell" value="8"/>
+          <param name="maxsell" value="12"/>
         </order>
       </orders>
       <basket basket="energycells"/>
       <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_l"/>
-      <quota galaxy="10" cluster="2"/>
+      <quota galaxy="12" cluster="3"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false">
         <sunlight min="0.1" max="10.0" />
       </location>
@@ -993,14 +997,14 @@
       <orders>
         <order order="TradeRoutine" default="true">
           <param name="minbuy" value="0"/>
-          <param name="maxbuy" value="4"/>
+          <param name="maxbuy" value="8"/>
           <param name="minsell" value="0"/>
-          <param name="maxsell" value="8"/>
+          <param name="maxsell" value="12"/>
         </order>
       </orders>
       <basket basket="energycells"/>
       <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_m"/>
-      <quota galaxy="20" cluster="8" sector="4"/>
+      <quota galaxy="12" cluster="6" sector="3"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false">
         <sunlight min="0.1" max="10.0" />
       </location>
@@ -1009,210 +1013,6 @@
         <select faction="uee" tags="[trader, container]" size="ship_m"/>
         <loadout>
           <level min="0.4" max="0.8"/>
-        </loadout>
-        <owner exact="uee" overridenpc="true"/>
-      </ship>
-    </job>
-
-    <job id="uee_equipment_trader_l" name="{996665,38}">
-      <modifiers rebuild="false" commandeerable="true"/>
-      <orders>
-        <order order="TradeRoutine" default="true">
-          <param name="minbuy" value="0"/>
-          <param name="maxbuy" value="5"/>
-          <param name="minsell" value="0"/>
-          <param name="maxsell" value="5"/>
-        </order>
-      </orders>
-      <basket basket="tech_uee"/>
-      <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_l"/>
-      <quota galaxy="2" cluster="1"/>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
-      <environment buildatshipyard="true"/>
-      <ship>
-        <select faction="uee" tags="[trader, container]" size="ship_l"/>
-        <loadout>
-          <level min="0.6" max="0.8"/>
-        </loadout>
-        <owner exact="uee" overridenpc="true"/>
-      </ship>
-    </job>
-
-    <job id="uee_equipment_trader_m" name="{996665,38}">
-      <modifiers rebuild="false" commandeerable="true"/>
-      <orders>
-        <order order="Middleman" default="true">
-          <param name="range" value="5"/>
-        </order>
-      </orders>
-      <basket basket="tech_uee"/>
-      <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_m"/>
-      <quota galaxy="10" cluster="3" sector="3"/>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
-      <environment buildatshipyard="true"/>
-      <ship>
-        <select faction="uee" tags="[trader, container]" size="ship_m"/>
-        <loadout>
-          <level min="0.6" max="0.8"/>
-        </loadout>
-        <owner exact="uee" overridenpc="true"/>
-      </ship>
-    </job>
-
-    <job id="uee_construction_trader_l" name="{996665,39}">
-      <modifiers rebuild="false" commandeerable="true"/>
-      <orders>
-        <order order="TradeRoutine" default="true">
-          <param name="minbuy" value="0"/>
-          <param name="maxbuy" value="5"/>
-          <param name="minsell" value="0"/>
-          <param name="maxsell" value="5"/>
-        </order>
-      </orders>
-      <basket basket="construction_stations_uee"/>
-      <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_l"/>
-      <quota galaxy="5" cluster="2"/>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
-      <environment buildatshipyard="true"/>
-      <ship>
-        <select faction="uee" tags="[trader, container]" size="ship_l"/>
-        <loadout>
-          <level min="0.4" max="0.8"/>
-        </loadout>
-        <owner exact="uee" overridenpc="true"/>
-      </ship>
-    </job>
-
-    <job id="uee_construction_trader_m" name="{996665,39}">
-      <modifiers rebuild="false" commandeerable="true"/>
-      <orders>
-        <order order="Middleman" default="true">
-          <param name="range" value="5"/>
-        </order>
-      </orders>
-      <basket basket="construction_stations_uee"/>
-      <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_m"/>
-      <quota galaxy="18" cluster="3"/>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
-      <environment buildatshipyard="true"/>
-      <ship>
-        <select faction="uee" tags="[trader, container]" size="ship_m"/>
-        <loadout>
-          <level min="0.4" max="0.8"/>
-        </loadout>
-        <owner exact="uee" overridenpc="true"/>
-      </ship>
-    </job>
-
-    <job id="uee_ship_construction_trader_l" name="{996665,39}">
-      <modifiers rebuild="true" commandeerable="true"/>
-      <orders>
-        <order order="TradeRoutine" default="true">
-          <param name="minbuy" value="0"/>
-          <param name="maxbuy" value="5"/>
-          <param name="minsell" value="0"/>
-          <param name="maxsell" value="5"/>
-        </order>
-      </orders>
-      <basket basket="construction_ships_uee"/>
-      <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_l"/>
-      <quota galaxy="1" />
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
-      <environment buildatshipyard="true"/>
-      <ship>
-        <select faction="uee" tags="[trader, container]" size="ship_l"/>
-        <loadout>
-          <level min="0.4" max="0.8"/>
-        </loadout>
-        <owner exact="uee" overridenpc="true"/>
-      </ship>
-    </job>
-
-    <job id="uee_ship_construction_trader_m" name="{996665,39}">
-      <modifiers rebuild="true" commandeerable="true"/>
-      <orders>
-        <order order="TradeRoutine" default="true">
-          <param name="minbuy" value="0"/>
-          <param name="maxbuy" value="5"/>
-          <param name="minsell" value="0"/>
-          <param name="maxsell" value="5"/>
-        </order>
-      </orders>
-      <basket basket="construction_ships_uee"/>
-      <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_m"/>
-      <quota galaxy="2" cluster="1"/>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
-      <environment buildatshipyard="true"/>
-      <ship>
-        <select faction="uee" tags="[trader, container]" size="ship_m"/>
-        <loadout>
-          <level min="0.4" max="0.8"/>
-        </loadout>
-        <owner exact="uee" overridenpc="true"/>
-      </ship>
-    </job>
-
-    <job id="uee_tech_trader_l" name="{996665,40}">
-      <modifiers rebuild="false" commandeerable="true"/>
-      <orders>
-        <order order="TradeRoutine" default="true">
-          <param name="minbuy" value="0"/>
-          <param name="maxbuy" value="5"/>
-          <param name="minsell" value="0"/>
-          <param name="maxsell" value="5"/>
-        </order>
-      </orders>
-      <basket basket="tech_uee"/>
-      <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_l"/>
-      <quota galaxy="17" cluster="2" sector="2"/>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
-      <environment buildatshipyard="true"/>
-      <ship>
-        <select faction="uee" tags="[trader, container]" size="ship_l"/>
-        <loadout>
-          <level min="0.6" max="0.8"/>
-        </loadout>
-        <owner exact="uee" overridenpc="true"/>
-      </ship>
-    </job>
-
-    <job id="uee_tech_trader_m" name="{996665,40}">
-      <modifiers rebuild="false" commandeerable="true"/>
-      <orders>
-        <order order="Middleman" default="true">
-          <param name="range" value="5"/>
-        </order>
-      </orders>
-      <basket basket="tech_uee"/>
-      <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_m"/>
-      <quota galaxy="38" cluster="5" sector="4"/>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
-      <environment buildatshipyard="true"/>
-      <ship>
-        <select faction="uee" tags="[trader, container]" size="ship_m"/>
-        <loadout>
-          <level min="0.6" max="0.8"/>
-        </loadout>
-        <owner exact="uee" overridenpc="true"/>
-      </ship>
-    </job>
-
-    <job id="uee_tech_trader_s" name="{996665,40}">
-      <modifiers rebuild="false" commandeerable="true"/>
-      <orders>
-        <order order="Middleman" default="true">
-          <param name="range" value="5"/>
-        </order>
-      </orders>
-      <basket basket="tech_uee"/>
-      <category faction="uee" tags="[factionlogic, freighter, trader]" size="ship_s"/>
-      <quota galaxy="10" cluster="3" sector="2"/>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
-      <environment buildatshipyard="true"/>
-      <ship>
-        <select faction="uee" tags="[trader, container]" size="ship_s"/>
-        <loadout>
-          <level min="0.6" max="0.8"/>
         </loadout>
         <owner exact="uee" overridenpc="true"/>
       </ship>
@@ -1228,7 +1028,7 @@
       </orders>
       <basket basket="all_container_uee"/>
       <category faction="uee" tags="[stationtrader]" size="ship_m"/>
-      <quota galaxy="0" maxgalaxy="10"/>
+      <quota galaxy="4" maxgalaxy="12"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
@@ -1249,7 +1049,7 @@
       </orders>
       <basket basket="all_container_uee"/>
       <category faction="uee" tags="[stationtrader]" size="ship_l"/>
-      <quota galaxy="0" maxgalaxy="3"/>
+      <quota galaxy="0" maxgalaxy="4"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="ally" comparison="ge" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
@@ -1271,7 +1071,7 @@
       </orders>
       <basket basket="rawscrap"/>
       <category faction="uee" tags="[factionlogic, tug]" size="ship_m"/>
-      <quota galaxy="9" sector="3"/>
+      <quota galaxy="12" sector="4"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="exact" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
@@ -1290,12 +1090,12 @@
         </order>
       </orders>
       <basket basket="rawscrap"/>
-      <category faction="uee" tags="[factionlogic, compactor]" size="ship_l"/>
-      <quota galaxy="4" sector="1"/>
+      <category faction="uee" tags="[factionlogic, compactor]" size="ship_m"/>
+      <quota galaxy="6" sector="2"/>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="neutral" comparison="ge" regionbasket="rawscrap" matchextension="false"/>
       <environment buildatshipyard="true"/>
       <ship>
-        <select faction="uee" tags="[compactor]" size="ship_l"/>
+        <select faction="uee" tags="[compactor]" size="ship_m"/>
         <loadout>
           <level min="0.3" max="0.7" profile="increasing"/>
         </loadout>

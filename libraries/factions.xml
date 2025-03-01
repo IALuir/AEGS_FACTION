@@ -3,7 +3,7 @@
 <diff>
   <add sel="/factions">
     <faction id="uee" name="{996665,1}" description="{996665,2}" shortname="{996665,3}" prefixname="{996665,3}" primaryrace="terran" behaviourset="default" tags="claimspace economic police protective watchdoguser privateloadout privateship" policefaction="uee">
-      <color r="0" g="172" b="255" />
+      <color r="67" g="237" b="248" />
       <icon active="faction_uee" inactive="faction_uee" />
       <licences>
         <licence type="capitalequipment" name="{996665,4}" icon="bse_star" minrelation="0.1" precursor="ceremonyally" price="50000000"/>

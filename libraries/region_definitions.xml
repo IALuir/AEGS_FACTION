@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<regions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="region_definitions.xsd">
+        <region name="aegs_cluster02_sector002_region" density="1.5" rotation="0" noisescale="8000" seed="445" minnoisevalue="0.15" maxnoisevalue="1">
+            <boundary class="cylinder">
+            <size r="350000" linear="50000" />
+            </boundary>
+            <falloff>
+            <lateral>
+                <step position="0.0" value="1.0" />
+                <step position="1.0" value="1.0" />
+            </lateral>
+            <radial>
+                <step position="0.0" value="1.0" />
+                <step position="0.3" value="1.0" />
+                <step position="0.5" value="0.9" />
+                <step position="0.9" value="0.8" />
+                <step position="1.0" value="0.0" />
+            </radial>
+            </falloff>
+            <fields>
+            
+            <volumetricfog multiplier="0.2" medium="fog_lightbrown" texture="assets/textures/environments/fog_maskrnd_06_gui" lodrule="nebulafar" size="20000" sizevariation="0.4" densityfactor="0.6" rotation="0" rotationvariation="0.05" noisescale="10000" seed="2001" minnoisevalue="0.8" maxnoisevalue="1.0" distancefactor="0.50"/>
+            <asteroid groupref="asteroid_ore_l" densityfactor="2" rotation="360" rotationvariation="4" seed="425" minnoisevalue="0.7" maxnoisevalue="1"/>
+            <asteroid groupref="asteroid_ice_l" densityfactor="2" rotation="360" rotationvariation="4" noisescale="35000" seed="26041984" minnoisevalue="0.05" maxnoisevalue="0.325"/>
+            <asteroid groupref="asteroid_highyield_v1" densityfactor="3" rotation="0" rotationvariation="8" noisescale="5000" seed="425" minnoisevalue="0.75" maxnoisevalue="1"/>
+            </fields>
+            <resources>
+            <resource ware="ore" yield="medium" />
+            <resource ware="ice" yield="medium" />
+            </resources>
+        </region>
+        <region name="aegs_cluster02_sector003_region" density="0.6" rotation="0" noisescale="10000" seed="425" minnoisevalue="0.15" maxnoisevalue="1">
+            <boundary class="cylinder">
+            <size r="350000" linear="50000" />
+            </boundary>
+            <falloff>
+            <lateral>
+                <step position="0.0" value="1.0" />
+                <step position="1.0" value="1.0" />
+            </lateral>
+            <radial>
+                <step position="0.0" value="1.0" />
+                <step position="0.3" value="1.0" />
+                <step position="0.5" value="0.9" />
+                <step position="0.9" value="0.8" />
+                <step position="1.0" value="0.0" />
+            </radial>
+            </falloff>
+            <fields>
+            <nebula ref="fogpattern_v2_macro" localred="149" localgreen="174" localblue="160" localdensity="0.018" uniformred="24" uniformgreen="36" uniformblue="65" uniformdensity="0.03" backgroundfog="false" resources="methane helium" />
+            <volumetricfog multiplier="0.2" medium="fog_darkblue" texture="assets/textures/environments/fog_patterncloud_04" lodrule="nebulafar" size="32000" sizevariation="0.4" densityfactor="0.03" rotation="0" rotationvariation="0.5" noisescale="5000" seed="26041984" minnoisevalue="0.4" maxnoisevalue="1.0" distancefactor="0.0"/>
+
+            <asteroid groupref="asteroid_silicon_l" densityfactor="2" rotation="360" rotationvariation="4" seed="425" minnoisevalue="0.7" maxnoisevalue="1"/>
+            <asteroid groupref="asteroid_silicon_m" densityfactor="1" rotation="360" rotationvariation="8" seed="425" minnoisevalue="0.5" maxnoisevalue="1"/>
+            <debris groupref="debris_xenon_xl" densityfactor="0.5" rotation="360" rotationvariation="4" noisescale="10000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="2.0"/>
+            <debris groupref="debris_xenon_l" densityfactor="0.3" rotation="360" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="2.0"/>
+            <debris groupref="debris_xenon_m" densityfactor="0.1" rotation="360" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="2.0"/>
+            <debris groupref="debris_xl" densityfactor="0.408" rotation="360" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.5" maxnoisevalue="1" distancefactor="2.0"/>
+            <debris groupref="debris_l" densityfactor="1" rotation="360" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.5" maxnoisevalue="1"/>
+
+            </fields>
+            <resources>
+            <resource ware="silicon" yield="medium" />
+            <resource ware="methane" yield="veryhigh" />
+            <resource ware="helium" yield="veryhigh" />
+            <resource ware="rawscrap" yield="medium" />
+            </resources>
+        </region>
+
+        <region name="aegs_cluster03_sector001_region" density="0.55" rotation="0" noisescale="10000" seed="425" minnoisevalue="0.15" maxnoisevalue="1">
+            <boundary class="cylinder">
+            <size r="350000" linear="50000" />
+            </boundary>
+            <falloff>
+            <lateral>
+                <step position="0.0" value="1.0" />
+                <step position="1.0" value="1.0" />
+            </lateral>
+            <radial>
+                <step position="0.0" value="1.0" />
+                <step position="0.3" value="1.0" />
+                <step position="0.5" value="0.9" />
+                <step position="0.9" value="0.8" />
+                <step position="1.0" value="0.0" />
+            </radial>
+            </falloff>
+            <fields>
+
+            </fields>
+            <resources>
+            </resources>
+        </region>
+        <region name="aegs_cluster03_sector002_region" density="0.75" rotation="0" noisescale="10000" seed="425" minnoisevalue="0.15" maxnoisevalue="1">
+            <boundary class="cylinder">
+            <size r="350000" linear="50000" />
+            </boundary>
+            <falloff>
+            <lateral>
+                <step position="0.0" value="1.0" />
+                <step position="1.0" value="1.0" />
+            </lateral>
+            <radial>
+                <step position="0.0" value="1.0" />
+                <step position="0.3" value="1.0" />
+                <step position="0.5" value="0.9" />
+                <step position="0.9" value="0.8" />
+                <step position="1.0" value="0.0" />
+            </radial>
+            </falloff>
+            <fields>
+            <nebula ref="fogpattern_v2_macro" localred="149" localgreen="174" localblue="255" localdensity="0.0175" uniformred="24" uniformgreen="36" uniformblue="65" uniformdensity="0.03" backgroundfog="false" resources="methane helium" />
+            <nebula ref="fogpattern_v2_macro" localred="200" localgreen="149" localblue="200" localdensity="0.03" uniformred="24" uniformgreen="40" uniformblue="70" uniformdensity="0.02" backgroundfog="false" resources="methane helium" />
+            <volumetricfog multiplier="0.2" medium="fog_lightbrown" texture="assets/textures/environments/fog_maskrnd_06_gui" lodrule="nebulafar" size="20000" sizevariation="0.4" densityfactor="0.6" rotation="0" rotationvariation="0.05" noisescale="10000" seed="2001" minnoisevalue="0.8" maxnoisevalue="1.0" distancefactor="0.50"/>
+
+            <asteroid groupref="asteroid_silicon_l" densityfactor="2" rotation="360" rotationvariation="4" seed="425" minnoisevalue="0.7" maxnoisevalue="1"/>
+            <asteroid groupref="asteroid_nividium_l" densityfactor="0.625" rotation="360" rotationvariation="4" noisescale="2000" seed="26041984" minnoisevalue="0.8" maxnoisevalue="1"/>
+            <debris groupref="debris_xenon_xl" densityfactor="0.7" rotation="360" rotationvariation="4" noisescale="10000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="2.0"/>
+            <debris groupref="debris_xenon_l" densityfactor="0.3" rotation="360" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="2.0"/>
+            <debris groupref="debris_xenon_m" densityfactor="0.1" rotation="360" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="2.0"/>
+            <debris groupref="debris_xl" densityfactor="0.408" rotation="360" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.5" maxnoisevalue="1" distancefactor="2.0"/>
+            <debris groupref="debris_l" densityfactor="1" rotation="360" rotationvariation="10" noisescale="10000" seed="32" minnoisevalue="0.5" maxnoisevalue="1"/>
+
+            </fields>
+            <resources>
+            <resource ware="silicon" yield="medium" />
+            <resource ware="nividium" yield="medium" />
+            <resource ware="methane" yield="medium" />
+            <resource ware="helium" yield="medium" />
+            <resource ware="rawscrap" yield="medium" />
+            </resources>
+        </region>
+        <region name="aegs_cluster03_sector003_region" density="0.2" rotation="0" noisescale="10000" seed="425" minnoisevalue="0.15" maxnoisevalue="1">
+            <boundary class="cylinder">
+            <size r="350000" linear="50000" />
+            </boundary>
+            <falloff>
+            <lateral>
+                <step position="0.0" value="1.0" />
+                <step position="1.0" value="1.0" />
+            </lateral>
+            <radial>
+                <step position="0.0" value="1.0" />
+                <step position="0.3" value="1.0" />
+                <step position="0.5" value="0.9" />
+                <step position="0.9" value="0.8" />
+                <step position="1.0" value="0.0" />
+            </radial>
+            </falloff>
+            <fields>
+            <nebula ref="fogpattern_v2_macro" localred="149" localgreen="174" localblue="255" localdensity="0.0175" uniformred="24" uniformgreen="36" uniformblue="65" uniformdensity="0.03" backgroundfog="false" resources="hydrogen" />
+            <asteroid groupref="asteroid_ore_xl" lodrule="asteroidxl" densityfactor="0.7" rotation="360" rotationvariation="4" noisescale="24000" seed="26041984" minnoisevalue="0.7" maxnoisevalue="1"/>
+            <asteroid groupref="asteroid_ore_l" densityfactor="1" rotation="360" rotationvariation="4" seed="425" minnoisevalue="0.7" maxnoisevalue="1"/>
+            <asteroid groupref="asteroid_highyield_v1" densityfactor="1" rotation="0" rotationvariation="8" noisescale="5000" seed="425" minnoisevalue="0.75" maxnoisevalue="1"/>
+            <asteroid groupref="asteroid_silicon_xl" lodrule="asteroidxl" densityfactor="0.7" rotation="360" rotationvariation="4" noisescale="50000" seed="666" minnoisevalue="0.65" maxnoisevalue="1"/>
+            <asteroid groupref="asteroid_silicon_l" densityfactor="1" rotation="360" rotationvariation="4" noisescale="50000" seed="666" minnoisevalue="0.6" maxnoisevalue="1"/>
+            <asteroid groupref="asteroid_ice_l" densityfactor="1" rotation="360" rotationvariation="4" noisescale="35000" seed="26041984" minnoisevalue="0.05" maxnoisevalue="0.325"/>
+
+            </fields>
+            <resources>
+                <resource ware="silicon" yield="high" />
+                <resource ware="ore" yield="high" />
+                <resource ware="ice" yield="medium" />
+                <resource ware="hydrogen" yield="medium" />
+            </resources>
+        </region>
+
+        <region name="aegs_cluster04_sector001_region" density="0.2" rotation="0" noisescale="10000" seed="425" minnoisevalue="0.15" maxnoisevalue="1">
+            <boundary class="cylinder">
+            <size r="350000" linear="50000" />
+            </boundary>
+            <falloff>
+            <lateral>
+                <step position="0.0" value="1.0" />
+                <step position="1.0" value="1.0" />
+            </lateral>
+            <radial>
+                <step position="0.0" value="1.0" />
+                <step position="0.3" value="1.0" />
+                <step position="0.5" value="0.9" />
+                <step position="0.9" value="0.8" />
+                <step position="1.0" value="0.0" />
+            </radial>
+            </falloff>
+            <fields>
+                <volumetricfog multiplier="0.2" medium="fog_asteroidbelt" texture="assets/textures/environments/volumefog\vf_chunky_diff" lodrule="nebulafar" size="120000" densityfactor="0.0051" rotation="360" rotationvariation="0.5" noisescale="1000000" seed="3214" minnoisevalue="0.2" maxnoisevalue="1.0" distancefactor="0.0" />
+                <volumetricfog multiplier="0.2" medium="fog_asteroidbelt2" texture="assets/textures/environments/volumefog\vf_chunky_diff" lodrule="nebulafar" size="120000" densityfactor="0.0051" rotation="360" rotationvariation="0.5" noisescale="1000000" seed="3214" minnoisevalue="0.2" maxnoisevalue="1.0" distancefactor="0.0" >
+                    <offset x="-4800" y="-23500" z="38200"/>
+                </volumetricfog>
+                <volumetricfog multiplier="0.2" medium="fog_darkblue" texture="assets/textures/environments/fog_maskrnd_06_gui" lodrule="nebulafar" size="20000" sizevariation="0.4" densityfactor="0.6" rotation="0" rotationvariation="0.05" noisescale="10000" seed="2001" minnoisevalue="0.8" maxnoisevalue="1.0" distancefactor="0.50"/>
+                <nebula ref="fogpattern_v2_macro" localred="16" localgreen="19" localblue="22" localdensity="0.0" uniformred="10" uniformgreen="14" uniformblue="20" uniformdensity="0.3" backgroundfog="false" resources="hydrogen" />
+                <nebula ref="fogpattern_v2_macro" localred="16" localgreen="19" localblue="22" localdensity="0.0" uniformred="10" uniformgreen="14" uniformblue="20" uniformdensity="0.3" backgroundfog="false" resources="helium" />
+                <nebula ref="fogpattern_v2_macro" localred="16" localgreen="19" localblue="22" localdensity="0.0" uniformred="10" uniformgreen="14" uniformblue="20" uniformdensity="0.3" backgroundfog="false" resources="methane" />
+
+            </fields>
+            <resources>
+                <resource ware="methane" yield="medium" />
+                <resource ware="helium" yield="medium" />
+                <resource ware="hydrogen" yield="veryhigh" />
+            </resources>
+        </region>
+
+        <region name="aegs_cluster01_sector001_region" density="0.2" rotation="0" noisescale="10000" seed="425" minnoisevalue="0.15" maxnoisevalue="1">
+            <boundary class="cylinder">
+            <size r="350000" linear="50000" />
+            </boundary>
+            <falloff>
+            <lateral>
+                <step position="0.0" value="1.0" />
+                <step position="1.0" value="1.0" />
+            </lateral>
+            <radial>
+                <step position="0.0" value="1.0" />
+                <step position="0.3" value="1.0" />
+                <step position="0.5" value="0.9" />
+                <step position="0.9" value="0.8" />
+                <step position="1.0" value="0.0" />
+            </radial>
+            </falloff>
+            <fields>
+            <volumetricfog multiplier="0.2" medium="fog_darkblue" texture="assets/textures/environments/fog_maskrnd_06_gui" lodrule="nebulafar" size="20000" sizevariation="0.4" densityfactor="0.6" rotation="0" rotationvariation="0.05" noisescale="10000" seed="2001" minnoisevalue="0.8" maxnoisevalue="1.0" distancefactor="0.50"/>
+
+            </fields>
+            <resources>
+                
+            </resources>
+        </region>
+</regions>

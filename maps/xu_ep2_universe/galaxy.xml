@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/macros/macro[@name='XU_EP2_universe_macro']/connections">
+    <connection name="AEGS_Cluster01_connection" ref="clusters">
+      <offset>
+        <position x="-135000000" y="0" z="-25980000" />
+      </offset>
+      <macro ref="AEGS_cluster01_macro" connection="galaxy" />
+    </connection>
+    <connection name="AEGS_Cluster02_connection" ref="clusters">
+      <offset>
+        <position x="-120000000" y="0" z="-17320000" />
+      </offset>
+      <macro ref="AEGS_cluster02_macro" connection="galaxy" />
+    </connection>
+    <connection name="AEGS_Cluster03_connection" ref="clusters">
+      <offset>
+        <position x="-120000000" y="0" z="-34640000" />
+      </offset>
+      <macro ref="AEGS_cluster03_macro" connection="galaxy" />
+    </connection>
+    <connection name="AEGS_Cluster04_connection" ref="clusters">
+      <offset>
+        <position x="-105000000" y="0" z="-25980000" />
+      </offset>
+      <macro ref="AEGS_cluster04_macro" connection="galaxy" />
+    </connection>
+
+    <connection name="AEGS_gate_0202to0301" ref="destination" path="../AEGS_Cluster02_connection/AEGS_cluster02_sector002_connection/AEGS_cluster02_sector002_zone001_connection/AEGS_connection_clustergate02To03">
+      <macro connection="destination" path="../../../../../AEGS_Cluster03_connection/AEGS_cluster03_sector003_connection/AEGS_cluster03_sector003_zone001_connection/AEGS_connection_clustergate03To02"/>
+    </connection>
+    <connection name="AEGS_gate_0301to0401" ref="destination" path="../AEGS_Cluster03_connection/AEGS_cluster03_sector001_connection/AEGS_cluster03_sector001_zone001_connection/AEGS_connection_clustergate03To04">
+      <macro connection="destination" path="../../../../../AEGS_Cluster04_connection/AEGS_cluster04_sector001_connection/AEGS_cluster04_sector001_zone001_connection/AEGS_connection_clustergate04To03"/>
+    </connection>
+    <connection name="AEGS_gate_0302to0101" ref="destination" path="../AEGS_Cluster03_connection/AEGS_cluster03_sector002_connection/AEGS_cluster03_sector002_zone001_connection/AEGS_connection_clustergate03To01">
+      <macro connection="destination" path="../../../../../AEGS_Cluster01_connection/AEGS_cluster01_sector001_connection/AEGS_cluster01_sector001_zone001_connection/AEGS_connection_clustergate01To03"/>
+    </connection>
+
+    <connection name="AEGS_gate_0203to0101" ref="destination" path="../AEGS_Cluster02_connection/AEGS_cluster02_sector003_connection/AEGS_cluster02_sector003_zone001_connection/AEGS_connection_clustergate02To100">
+      <macro connection="destination" path="../../../../../Cluster_100_connection/Cluster_100_Sector001_connection/Zone006_Cluster_100_Sector001_connection/connection_ClusterGate100Toaegs0203"/>
+    </connection>
+  </add>
+</diff>

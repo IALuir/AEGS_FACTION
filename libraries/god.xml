@@ -5,7 +5,7 @@
       <quotas>
         <quota galaxy="1" sector="1" zone="1" />
       </quotas>
-      <location class="sector" macro="cluster_116_sector001_macro" />
+      <location class="sector" macro="AEGS_cluster01_sector001_macro" />
       <position x="0" y="0.0" z="0" pitch="0" roll="0" />
       <station>
         <select faction="uee" tags="[shipyard]" />
@@ -20,7 +20,7 @@
       <quotas>
         <quota galaxy="1" sector="1" zone="1" />
       </quotas>
-      <location class="sector" macro="cluster_116_sector001_macro" />
+      <location class="sector" macro="AEGS_cluster03_sector002_macro" />
       <position x="85000" y="0.0" z="0" pitch="0" roll="0" />
       <station>
         <select faction="uee" tags="[wharf]" />
@@ -30,7 +30,223 @@
         </loadout>
       </station>
     </station>
+
+    <station id="uee_defence_cluster01_sector01" race="terran" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1" zone="1" />
+      </quotas>
+      <location class="sector" macro="AEGS_cluster01_sector001_macro" />
+      <position x="72596.0" y="0.0" z="42558.0" pitch="0" roll="0" />
+      <station constructionplan="'uee_defence'">
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
+
+    <station id="uee_defence_cluster03_sector01" race="terran" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1" zone="1" />
+      </quotas>
+      <location class="sector" macro="AEGS_cluster03_sector001_macro" />
+      <position x="72596.0" y="0.0" z="42558.0" pitch="0" roll="0" />
+      <station constructionplan="'uee_defence'">
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
+
+    <station id="uee_defence_cluster03_sector02" race="terran" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1" zone="1" />
+      </quotas>
+      <location class="sector" macro="AEGS_cluster03_sector002_macro" />
+      <position x="72596.0" y="0.0" z="42558.0" pitch="0" roll="0" />
+      <station constructionplan="'uee_defence'">
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
+
+    <station id="uee_defence_cluster03_sector03" race="terran" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1" zone="1" />
+      </quotas>
+      <location class="sector" macro="AEGS_cluster03_sector003_macro" />
+      <position x="72596.0" y="0.0" z="42558.0" pitch="0" roll="0" />
+      <station constructionplan="'uee_defence'">
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
+
+    <station id="uee_defence_cluster04_sector01" race="terran" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1" zone="1" />
+      </quotas>
+      <location class="sector" macro="AEGS_cluster04_sector001_macro" />
+      <position x="72596.0" y="0.0" z="42558.0" pitch="0" roll="0" />
+      <station constructionplan="'uee_defence'">
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
+
+
+    <station id="pyro_piratebase_cluster02_sector01" race="terran" owner="scaleplate" type="piratebase">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="sector" macro="AEGS_cluster02_sector001_macro" />
+      <position x="51200" y="0" z="69500" pitch="0" roll="0" yaw="0" />
+      <station>
+        <select faction="faction.scaleplate" tags="[anarchyport]" />
+        <loadout>
+          <level exact="0.75" />
+        </loadout>
+      </station>
+    </station>
+    <station id="pyro_piratebase_cluster02_sector02" race="terran" owner="scaleplate" type="piratebase">
+      <quotas>
+        <quota galaxy="2" zone="2" />
+      </quotas>
+      <location class="sector" macro="AEGS_cluster02_sector002_macro" />
+      <position x="51200" y="0" z="69500" pitch="0" roll="0" yaw="0" />
+      <station>
+        <select faction="faction.scaleplate" tags="[anarchyport]" />
+        <loadout>
+          <level exact="0.75" />
+        </loadout>
+      </station>
+    </station>
   </add>
 
-  <replace sel="/god/stations/station[@id='ter_defence_cluster_116_sector001']/@owner">uee</replace>
+  <station id="uee_processing" race="terran" owner="pioneers" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1"/>
+      </quotas>
+      <location class="sector" macro="AEGS_cluster02_Region003_macro" solitary="true"/>
+      <position x="-8867" y="0" z="-58345" pitch="0" roll="0" yaw="50"/>
+      <station constructionplan="pio_scrap_processor">
+        <loadout>
+          <level exact="0.75" />
+        </loadout>
+      </station>
+    </station>
+    <station id="uee_processing2" race="terran" owner="pioneers" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1"/>
+      </quotas>
+      <location class="sector" macro="AEGS_cluster03_sector002_macro" solitary="true"/>
+      <position x="-8867" y="0" z="68345" pitch="0" roll="0" yaw="50"/>
+      <station constructionplan="pio_scrap_processor">
+        <loadout>
+          <level exact="0.75" />
+        </loadout>
+      </station>
+    </station>
+
+    <add sel="/god/products">
+    <!-- Terran Economy -->
+    <product id="uee_metallicmicrolattice" ware="metallicmicrolattice" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="8" sector="3"/>
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="ge">
+      </location>
+      <module>
+        <select ware="metallicmicrolattice" race="terran"/>
+      </module>
+    </product>
+
+    <product id="uee_computronicsubstrate" ware="computronicsubstrate" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="8" sector="3"/>
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="ge">
+      </location>
+      <module>
+        <select ware="computronicsubstrate" race="terran"/>
+      </module>
+    </product>
+
+    <product id="uee_siliconcarbide" ware="siliconcarbide" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="6" sector="3"/>
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="ge">
+      </location>
+      <module>
+        <select ware="siliconcarbide" race="terran"/>
+      </module>
+    </product>
+
+    <product id="uee_energycells" ware="energycells" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="64" sector="8" />
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="ge">
+        <sunlight min="0.6" max="10.0" />
+      </location>
+      <module>
+        <select ware="energycells" race="terran"/>
+      </module>
+    </product>
+
+    <product id="uee_medicalsupplies" ware="medicalsupplies" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="16" sector="4"/>
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="ge">
+      </location>
+      <module>
+        <select ware="medicalsupplies" race="terran"/>
+      </module>
+    </product>
+
+    <product id="uee_proteinpaste" ware="proteinpaste" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="4" />
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="ge">
+      </location>
+      <module>
+        <select ware="proteinpaste" race="terran"/>
+      </module>
+    </product>
+
+    <product id="uee_terranmre" ware="terranmre" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="6" sector="2"/>
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="ge">
+        <economy max="0.75" maxbound="false" />
+      </location>
+      <module>
+        <select ware="terranmre" race="terran"/>
+      </module>
+    </product>
+
+    <product id="uee_stimulants" ware="stimulants" owner="uee" type="factory">
+      <quotas>
+        <quota galaxy="2" />
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="uee" relation="self" comparison="ge">
+        <economy max="0.25" maxbound="false" />
+      </location>
+      <module>
+        <select ware="stimulants" race="terran"/>
+      </module>
+    </product>
+
+  </add>
 </diff>

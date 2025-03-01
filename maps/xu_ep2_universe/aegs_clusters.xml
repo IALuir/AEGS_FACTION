@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <!-- 泰拉 -->
+  <macro name="AEGS_cluster01_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="AEGS_cluster01_sector001_connection" ref="sectors">
+        <macro ref="AEGS_cluster01_sector001_macro" connection="cluster" />
+      </connection>
+
+      <connection name="AEGS_cluster01_Region001_connection" ref="regions">
+        <offset>
+          <position x="0" y="-8000" z="0" />
+        </offset>
+        <macro name="AEGS_cluster01_Region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="aegs_cluster01_sector001_region" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="aegs_cluster_terran" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <!-- 派罗 -->
+  <macro name="AEGS_cluster02_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="AEGS_cluster02_sector001_connection" ref="sectors">
+        <macro ref="AEGS_cluster02_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="AEGS_cluster02_sector002_connection" ref="sectors">
+        <macro ref="AEGS_cluster02_sector002_macro" connection="cluster" />
+        <offset>
+          <position x="-55073532" y="0" z="-159401120" />
+        </offset>
+      </connection>
+      <connection name="AEGS_cluster02_sector003_connection" ref="sectors">
+        <macro ref="AEGS_cluster02_sector003_macro" connection="cluster" />
+        <offset>
+          <position x="-32631400" y="0" z="134273000" />
+        </offset>
+      </connection>
+
+      <connection name="AEGS_cluster02_Region001_connection" ref="regions">
+        <offset>
+          <position x="0" y="-2000" z="0" />
+        </offset>
+        <macro name="AEGS_cluster02_Region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="aegs_cluster02_sector001_region" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="AEGS_cluster02_Region002_connection" ref="regions">
+        <offset>
+          <position x="-55073532" y="-2000" z="-159401120" />
+        </offset>
+        <macro name="AEGS_cluster02_Region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="AEGS_cluster02_sector002_region" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="AEGS_cluster02_Region003_connection" ref="regions">
+        <offset>
+          <position x="-32631400" y="-2000" z="134273000" />
+        </offset>
+        <macro name="AEGS_cluster02_Region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="AEGS_cluster02_sector003_region" />
+          </properties>
+        </macro>
+      </connection>
+
+      <connection name="SuperHighway01_AEGS_cluster02_connection" ref="sechighways">
+        <offset>
+          <position x="-27543900" y="0" z="-79700560" />
+        </offset>
+        <macro ref="SuperHighway01_aegs_Cluster002_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_108_Sector001SHCon6_GateZone_macro" path="../../AEGS_cluster02_sector001_connection/AEGS_cluster02_sector001_GateZone01_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_108_Sector002SHCon5_GateZone_macro" path="../../AEGS_cluster02_sector002_connection/AEGS_cluster02_sector002_GateZone01_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway02_AEGS_cluster02_connection" ref="sechighways">
+        <offset>
+          <position x="-27529510" y="0" z="-79700560" />
+        </offset>
+        <macro ref="SuperHighway02_aegs_Cluster002_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_108_Sector001SHCon10_GateZone_macro" path="../../AEGS_cluster02_sector001_connection/AEGS_cluster02_sector001_GateZone02_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_108_Sector002SHCon9_GateZone_macro" path="../../AEGS_cluster02_sector002_connection/AEGS_cluster02_sector002_GateZone02_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway03_AEGS_cluster02_connection" ref="sechighways">
+        <offset>
+          <position x="-16351671" y="0" z="67136700" />
+        </offset>
+        <macro ref="SuperHighway03_aegs_Cluster002_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_108_Sector001SHCon6_GateZone_macro" path="../../AEGS_cluster02_sector001_connection/AEGS_cluster02_sector001_GateZone03_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_108_Sector002SHCon5_GateZone_macro" path="../../AEGS_cluster02_sector003_connection/AEGS_cluster02_sector003_GateZone01_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway04_AEGS_cluster02_connection" ref="sechighways">
+        <offset>
+          <position x="-16365700" y="0" z="67136700" />
+        </offset>
+        <macro ref="SuperHighway04_aegs_Cluster002_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_108_Sector001SHCon10_GateZone_macro" path="../../AEGS_cluster02_sector001_connection/AEGS_cluster02_sector001_GateZone04_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_108_Sector002SHCon9_GateZone_macro" path="../../AEGS_cluster02_sector003_connection/AEGS_cluster02_sector003_GateZone02_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="aegs_cluster_pyro" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <!-- 斯坦顿 -->
+  <macro name="AEGS_cluster03_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="AEGS_cluster03_sector001_connection" ref="sectors">
+        <macro ref="AEGS_cluster03_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="AEGS_cluster03_sector002_connection" ref="sectors">
+        <macro ref="AEGS_cluster03_sector002_macro" connection="cluster" />
+        <offset>
+          <position x="-55073532" y="0" z="-159401120" />
+        </offset>
+      </connection>
+      <connection name="AEGS_cluster03_sector003_connection" ref="sectors">
+        <macro ref="AEGS_cluster03_sector003_macro" connection="cluster" />
+        <offset>
+          <position x="-32631400" y="0" z="134273000" />
+        </offset>
+      </connection>
+
+      <connection name="AEGS_cluster03_Region001_connection" ref="regions">
+        <offset>
+          <position x="0" y="-2000" z="0" />
+        </offset>
+        <macro name="AEGS_cluster03_Region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="AEGS_cluster03_sector001_region" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="AEGS_cluster03_Region002_connection" ref="regions">
+        <offset>
+          <position x="-55073532" y="-2000" z="-159401120" />
+        </offset>
+        <macro name="AEGS_cluster03_Region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="AEGS_cluster03_sector002_region" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="AEGS_cluster03_Region003_connection" ref="regions">
+        <offset>
+          <position x="-32631400" y="-2000" z="134273000" />
+        </offset>
+        <macro name="AEGS_cluster03_Region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="AEGS_cluster03_sector003_region" />
+          </properties>
+        </macro>
+      </connection>
+
+      <connection name="SuperHighway01_AEGS_cluster03_connection" ref="sechighways">
+        <offset>
+          <position x="-27543900" y="0" z="-79700560" />
+        </offset>
+        <macro ref="SuperHighway01_aegs_Cluster003_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_108_Sector001SHCon6_GateZone_macro" path="../../AEGS_cluster03_sector001_connection/AEGS_cluster03_sector001_GateZone01_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_108_Sector002SHCon5_GateZone_macro" path="../../AEGS_cluster03_sector002_connection/AEGS_cluster03_sector002_GateZone01_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway02_AEGS_cluster03_connection" ref="sechighways">
+        <offset>
+          <position x="-27529510" y="0" z="-79700560" />
+        </offset>
+        <macro ref="SuperHighway02_aegs_Cluster003_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_108_Sector001SHCon10_GateZone_macro" path="../../AEGS_cluster03_sector001_connection/AEGS_cluster03_sector001_GateZone02_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_108_Sector002SHCon9_GateZone_macro" path="../../AEGS_cluster03_sector002_connection/AEGS_cluster03_sector002_GateZone02_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway03_AEGS_cluster03_connection" ref="sechighways">
+        <offset>
+          <position x="-16351671" y="0" z="67136700" />
+        </offset>
+        <macro ref="SuperHighway03_aegs_Cluster003_macro" connection="cluster">
+          <connections>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_108_Sector001SHCon6_GateZone_macro" path="../../AEGS_cluster03_sector001_connection/AEGS_cluster03_sector001_GateZone03_connection" connection="exitpoint1" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_108_Sector002SHCon5_GateZone_macro" path="../../AEGS_cluster03_sector003_connection/AEGS_cluster03_sector003_GateZone01_connection" connection="entrypoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+      <connection name="SuperHighway04_AEGS_cluster03_connection" ref="sechighways">
+        <offset>
+          <position x="-16365700" y="0" z="67136700" />
+        </offset>
+        <macro ref="SuperHighway04_aegs_Cluster003_macro" connection="cluster">
+          <connections>
+            <connection ref="exitpoint">
+              <macro ref="tzoneCluster_108_Sector001SHCon10_GateZone_macro" path="../../AEGS_cluster03_sector001_connection/AEGS_cluster03_sector001_GateZone04_connection" connection="entrypoint1" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro ref="tzoneCluster_108_Sector002SHCon9_GateZone_macro" path="../../AEGS_cluster03_sector003_connection/AEGS_cluster03_sector003_GateZone02_connection" connection="exitpoint1" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="aegs_cluster_stanton" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <!-- 马格努斯 -->
+  <macro name="AEGS_cluster04_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="AEGS_cluster04_sector001_connection" ref="sectors">
+        <macro ref="AEGS_cluster04_sector001_macro" connection="cluster" />
+      </connection>
+
+      <connection name="AEGS_cluster04_Region001_connection" ref="regions">
+        <offset>
+          <position x="0" y="-8000" z="0" />
+        </offset>
+        <macro name="AEGS_cluster04_Region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="aegs_cluster04_sector001_region" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="aegs_cluster_magnus" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+</macros>

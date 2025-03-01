@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<components>
+	<component name="aegs_cluster_pyro" class="celestialbody">
+		<source geometry="extensions\aegs_faction\assets\environments\cluster\aegs_cluster_pyro_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="213" b="167" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_c_12" trigger="1" intensity="1.68">
+						<lightanimations/>
+						<offset>
+							<position x="2.334764E+08" y="3.146558E+08" z="1.531406E+08"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient001" r="56" g="28" b="0" range="1E+11" intensity="0.7">
+						<lightanimations/>
+						<offset>
+							<position x="-1.05875E+07" y="0" z="-3.719125E+07"/>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection001" tags="part  ">
+				<offset>
+					<position x="8536309" y="0" z="-6.23338E+07"/>
+				</offset>
+				<parts>
+					<part name="atmosphere">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.atmo_cluster12_moon1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.5625E+07" y="2.5625E+07" z="2.5625E+07"/>
+							<center x="-0.9765625" y="0" z="3.90625"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection002" tags="part  ">
+				<offset>
+					<position x="8536309" y="0" z="-6.23338E+07"/>
+				</offset>
+				<parts>
+					<part name="planet001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.planet_cluster12_moon1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.5E+07" y="2.5E+07" z="2.5E+07"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection003" tags="part ">
+				<offset>
+					<position x="5.653422E+07" y="-2953693" z="2.423046E+07"/>
+					<quaternion qx="8.444394E-08" qy="-0.258819" qz="-2.262668E-08" qw="-0.9659259"/>
+				</offset>
+				<parts>
+					<part name="Object020">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="asteroids.ast_ore_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.173582E+07" y="8883418" z="1.093987E+07"/>
+							<center x="2197899" y="3229634" z="-4226334"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection004" tags="part  ">
+				<offset>
+					<position x="1.226125E+07" y="31.25" z="8100447"/>
+				</offset>
+				<parts>
+					<part name="Background">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.backgroundstars"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.214036E+08" y="4.25545E+08" z="4.214036E+08"/>
+							<center x="-19.53125" y="0" z="6.835938"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection005" tags="part  ">
+				<offset>
+					<position x="0" y="-15.625" z="15.625"/>
+				</offset>
+				<parts>
+					<part name="part_c12_bg001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.p1_env_bg_vertexcolor"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.883595E+08" y="4.878387E+08" z="4.896672E+08"/>
+							<center x="0" y="15.625" z="-15.625"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection006" tags="part  ">
+				<offset>
+					<position x="-2.448012E+07" y="3.438606E+07" z="4776846"/>
+				</offset>
+				<parts>
+					<part name="bigstar001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.143007E+08" y="2.885243E+08" z="3.047451E+08"/>
+							<center x="2.634183E+07" y="-7783313" z="-4724377"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection007" tags="part  ">
+				<offset>
+					<position x="5037946" y="1.133613E+07" z="1.449202E+07"/>
+				</offset>
+				<parts>
+					<part name="mediumstar001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.205873E+08" y="3.377652E+08" z="3.210077E+08"/>
+							<center x="-5030758" y="7968156" z="-3956797"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection008" tags="part  ">
+				<offset>
+					<position x="5677094" y="3.35058E+07" z="1.399405E+07"/>
+				</offset>
+				<parts>
+					<part name="smallstar001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.214216E+08" y="3.279071E+08" z="3.372429E+08"/>
+							<center x="-4464391" y="-1.775992E+07" z="882703.1"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection009" tags="part  ">
+				<offset>
+					<position x="1.024441E+08" y="1.058474E+08" z="6.524834E+07"/>
+				</offset>
+				<parts>
+					<part name="nebula001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.713526E+08" y="4.221468E+08" z="5.229852E+08"/>
+							<center x="-9256188" y="2.182224E+07" z="-4321547"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

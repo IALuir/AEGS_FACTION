@@ -123,7 +123,7 @@
 		</ship>
 
 		<ship id="uee_compactor_m" group="uee_packet">
-			<category tags="[compactor, mission]" faction="uee" size="ship_m"/>
+			<category tags="[compactor]" faction="uee" size="ship_m"/>
 			<owner exact="uee" overridenpc="true"/>
 			<pilot>
 			<select faction="terran" tags="traderpilot"/>
@@ -133,7 +133,7 @@
 			<people ref="terran_freighter_crew"/>
 		</ship>
 		<ship id="uee_tug_m" group="common_tug_m">
-			<category tags="[tug, mission]" faction="uee" size="ship_m"/>
+			<category tags="[tug]" faction="uee" size="ship_m"/>
 			<owner exact="uee" overridenpc="true"/>
 			<pilot>
 			<select faction="terran" tags="traderpilot"/>
@@ -158,6 +158,16 @@
 		<!--无畏舰-->
 		<ship id="uee_battleship_military_xl" group="uee_battleship_military_xl">
 			<category tags="[military, battleship]" faction="uee" size="ship_xl"/>
+			<pilot>
+			<select faction="terran" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_large_military"/>
+			<people ref="terran_military_crew"/>
+		</ship>
+
+		<!--巡洋舰-->
+		<ship id="uee_cruiser_military_l" group="uee_cruiser_military_l">
+			<category tags="[military, cruiser]" faction="uee" size="ship_l"/>
 			<pilot>
 			<select faction="terran" tags="fighterpilot"/>
 			</pilot>
@@ -278,7 +288,7 @@
 		<!--民用-->
 		<!--航母-->
 		<ship id="uee_carrier_kraken" group="uee_carrier_kraken">
-			<category tags="[civilian, carrier, deepspace]" faction="uee" size="ship_l"/>
+			<category tags="[civilian, miner, carrier, deepspace]" faction="uee" size="ship_l"/>
 			<pilot>
 			<select faction="terran" tags="fighterpilot"/>
 			</pilot>

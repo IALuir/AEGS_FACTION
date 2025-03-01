@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel="/soundlibrary">
+    <sound id="996664_normal" description="Maps" repeat="1" is3d="1" preload="0">
+      <sample start="extensions\aegs_faction\voice\996664\normal"/>
+      <effects>
+        <reverb room="sewer pipe" roomsize="10" drymix="5" density="90"/>
+      </effects>
+    </sound>
+    <sound id="996664_comm" description="Maps" repeat="1" is3d="1" preload="0">
+      <sample start="extensions\aegs_faction\voice\996664\comm"/>
+      <effects>
+        <reverb room="sewer pipe" roomsize="10" drymix="5" density="90"/>
+      </effects>
+    </sound>
+
+  </add>
+</diff>

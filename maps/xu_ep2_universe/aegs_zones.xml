@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="AEGS_cluster01_sector001_zone001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+      <connection name="AEGS_connection_clustergate01To03" ref="gates">
+        <offset>
+          <position x="33026.6875" y="500" z="-27539.626953125" />
+          <quaternion qx="0" qy="-0.382683" qz="0" qw="0.92388" />
+        </offset>
+        <macro ref="props_gates_anc_gate_macro" connection="space" />
+      </connection>
+    </connections>
+  </macro>
+
+  <macro name="AEGS_cluster04_sector001_zone001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+      <connection name="AEGS_connection_clustergate04To03" ref="gates">
+        <offset>
+          <position x="33026.6875" y="500" z="-27539.626953125" />
+          <quaternion qx="0" qy="0.382683" qz="0" qw="0.92388" />
+        </offset>
+        <macro ref="props_gates_anc_gate_macro" connection="space" />
+      </connection>
+    </connections>
+  </macro>
+
+  <macro name="AEGS_cluster03_sector003_zone001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+      <connection name="AEGS_connection_clustergate03To02" ref="gates">
+        <offset>
+          <position x="33026.6875" y="500" z="-27539.626953125" />
+          <quaternion qx="0" qy="1" qz="0" qw="0" />
+        </offset>
+        <macro ref="props_gates_anc_gate_macro" connection="space" />
+      </connection>
+    </connections>
+  </macro>
+  <macro name="AEGS_cluster03_sector001_zone001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+      <connection name="AEGS_connection_clustergate03To04" ref="gates">
+        <offset>
+          <position x="33026.6875" y="500" z="-27539.626953125" />
+          <quaternion qx="0" qy="-0.9238795638" qz="0" qw="0.3826834559" />
+        </offset>
+        <macro ref="props_gates_anc_gate_macro" connection="space" />
+      </connection>
+    </connections>
+  </macro>
+  <macro name="AEGS_cluster03_sector002_zone001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+      <connection name="AEGS_connection_clustergate03To01" ref="gates">
+        <offset>
+          <position x="33026.6875" y="500" z="-27539.626953125" />
+          <quaternion qx="0" qy="0.92388" qz="0" qw="0.3826834559" />
+        </offset>
+        <macro ref="props_gates_anc_gate_macro" connection="space" />
+      </connection>
+    </connections>
+  </macro>
+
+  <macro name="AEGS_cluster02_sector002_zone001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+      <connection name="AEGS_connection_clustergate02To03" ref="gates">
+        <offset>
+          <position x="33026.6875" y="500" z="-27539.626953125" />
+        </offset>
+        <macro ref="props_gates_anc_gate_macro" connection="space" />
+      </connection>
+    </connections>
+  </macro>
+  <macro name="AEGS_cluster02_sector003_zone001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+      <connection name="AEGS_connection_clustergate02To100" ref="gates">
+        <offset>
+          <position x="33026.6875" y="500" z="-27539.626953125" />
+          <quaternion qx="0" qy="0.92388" qz="0" qw="0.3826834559" />
+        </offset>
+        <macro ref="props_gates_anc_gate_macro" connection="space" />
+      </connection>
+    </connections>
+  </macro>
+  
+  <macro name="Zone006_Cluster_100_Sector001_macro" class="zone">
+      <component ref="standardzone" />
+      <connections>
+        <connection name="connection_ClusterGate100Toaegs0203" ref="gates">
+          <offset>
+            <position x="-33993.94921875" y="0" z="-4520.3706054688" />
+            <quaternion qx="0" qy="-0.382683" qz="0" qw="0.92388" />
+          </offset>
+          <macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+        </connection>
+      </connections>
+    </macro>
+</macros>

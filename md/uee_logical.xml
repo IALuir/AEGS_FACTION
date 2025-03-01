@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mdscript name="uee_logical" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
   <cues>
-    <cue name="start" instantiate="true">
+    <cue name="uee_logical_start" instantiate="true">
 			<conditions>
         <check_any>
 					<event_game_started />
@@ -10,18 +10,35 @@
       </conditions>
 			<actions>
         <create_group groupname="$Object_bengal"/>
+        <set_value name="$Object_bengal_list" exact="[]"/>
         <find_ship name="$Object" macro="macro.ship_aegs_l_bengal_macro"  multiple="true" />
         <do_for_each name="$ship" in="$Object">
           <add_to_group groupname="$Object_bengal" object="$ship"/>
+          <append_to_list name="$Object_bengal_list" exact="$ship"/>
         </do_for_each>
+        <include_actions ref="ClearGroup"/>
+        <debug_text text="$Object_bengal_list.count"/>
 			</actions>
 			<cues>
-				<cue name="constellation_andromeda_p52_dock_01" instantiate="true">
+
+        <library name="ClearGroup">
+          <actions>
+            <do_for_each name="$ships" in="$Object_bengal_list" reverse="true">
+              <do_if value="not $ships.exists">
+                <remove_from_list name="$Object_bengal_list" exact="$ships"/>
+              </do_if>
+            </do_for_each>
+          </actions>
+        </library>
+
+				<cue name="uee_logical_retribution" instantiate="true">
           <conditions>
               <event_object_destroyed group="$Object_bengal"/>
           </conditions>
           <actions>
-            <do_if value="$Object_bengal.count == 0">
+            <include_actions ref="ClearGroup"/>
+            <debug_text text="$Object_bengal_list.count"/>
+            <do_if value="$Object_bengal_list.count == 0">
               <set_job_active job="'uee_retribution'" activate="true"/>
             </do_if>
           </actions>

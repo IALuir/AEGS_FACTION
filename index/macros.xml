@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text\xsl" ? -->
+<index>
+      <!-- 星系 -->
+      <entry name="AEGS_cluster01_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_clusters"/>
+      <entry name="AEGS_cluster02_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_clusters"/>
+      <entry name="AEGS_cluster03_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_clusters"/>
+      <entry name="AEGS_cluster04_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_clusters"/>
+
+      <entry name="SuperHighway01_aegs_Cluster002_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_sechighways"/>
+      <entry name="SuperHighway02_aegs_Cluster002_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_sechighways"/>
+      <entry name="SuperHighway03_aegs_Cluster002_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_sechighways"/>
+      <entry name="SuperHighway04_aegs_Cluster002_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_sechighways"/>
+
+      <entry name="AEGS_cluster01_sector001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_sectors"/>
+      <entry name="AEGS_cluster02_sector001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_sectors"/>
+      <entry name="AEGS_cluster03_sector001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_sectors"/>
+      <entry name="AEGS_cluster04_sector001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_sectors"/>
+
+      <entry name="Cluster_100_Sector001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\dlc_terran_sectors"/>
+      
+      <entry name="AEGS_cluster01_sector001_zone001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_zones"/>
+      <entry name="AEGS_cluster04_sector001_zone001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_zones"/>
+      <entry name="AEGS_cluster03_sector003_zone001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_zones"/>
+      <entry name="AEGS_cluster03_sector001_zone001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_zones"/>
+      <entry name="AEGS_cluster03_sector002_zone001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_zones"/>
+      <entry name="AEGS_cluster02_sector002_zone001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_zones"/>
+      <entry name="AEGS_cluster02_sector003_zone001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_zones"/>
+      <entry name="Zone006_Cluster_100_Sector001_macro" value="extensions\aegs_faction\maps\XU_ep2_universe\aegs_zones"/>
+
+      <entry name="aegs_cluster_magnus_macro" value="extensions\aegs_faction\assets\environments\cluster\macros\aegs_cluster_magnus_macro"/>
+	<entry name="aegs_cluster_pyro_macro" value="extensions\aegs_faction\assets\environments\cluster\macros\aegs_cluster_pyro_macro"/>
+	<entry name="aegs_cluster_stanton_macro" value="extensions\aegs_faction\assets\environments\cluster\macros\aegs_cluster_stanton_macro"/>
+	<entry name="aegs_cluster_terran_macro" value="extensions\aegs_faction\assets\environments\cluster\macros\aegs_cluster_terran_macro"/>
+
+</index>

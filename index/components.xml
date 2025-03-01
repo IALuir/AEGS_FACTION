@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<index>
+	<entry name="aegs_cluster_magnus" value="extensions\aegs_faction\assets\environments\cluster\aegs_cluster_magnus"/>
+	<entry name="aegs_cluster_pyro" value="extensions\aegs_faction\assets\environments\cluster\aegs_cluster_pyro"/>
+	<entry name="aegs_cluster_stanton" value="extensions\aegs_faction\assets\environments\cluster\aegs_cluster_stanton"/>
+	<entry name="aegs_cluster_terran" value="extensions\aegs_faction\assets\environments\cluster\aegs_cluster_terran"/>
+</index>

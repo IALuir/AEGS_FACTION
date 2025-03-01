@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaults xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
+  <dataset macro="AEGS_cluster01_macro">
+    <properties>
+      <identification name="{996663,1}" description="{996663,2}" image="enc_cluster01"/>
+      <sounds>
+        <music ref="music_dlc_pirate_soundtrack_avarice" />
+      </sounds>
+      <area sunlight="4.25" economy="0.75" security="0.8" />
+      <system>
+        <space environment="{1042,12011}"/>
+        <suns>
+          <sun class="{1042,13021}"/>
+        </suns>
+        <planets>
+          <planet name="{996662,15}" class="{1042,14061}" geology="{1042,15071}" atmosphere="{1042,11071}" population="{1042,10021}" maxpopulation="200000" settlements="{1042,16031}">
+          </planet>
+          <planet name="{996662,17}" class="{1042,14061}" geology="{1042,15061}" atmosphere="{1042,10011}" population="{1042,10021}" maxpopulation="1500000" settlements="{1042,16021}">
+          </planet>
+          <planet name="{996662,19}" class="{1042,14011}" geology="{1042,15121}" atmosphere="{1042,11071}" population="{1042,10021}" maxpopulation="30000000000" settlements="{1042,16071}">
+          </planet>
+          <planet name="{996662,21}" class="{1042,14031}" geology="{1042,15131}" atmosphere="{1042,11071}" population="{1042,10021}" maxpopulation="150000000" settlements="{1042,16041}">
+          </planet>
+        </planets>
+      </system>
+    </properties>
+  </dataset>
+  <dataset macro="AEGS_cluster01_sector001_macro">
+    <properties>
+      <identification name="{20005,9966641}" description="{20005,9966642}" />
+      <worlds>
+        <world part="planet001c"/>
+      </worlds>
+    </properties>
+  </dataset>
+
+
+  <dataset macro="AEGS_cluster02_macro">
+    <properties>
+      <identification name="{996663,3}" description="{996663,4}" image="enc_cluster01"/>
+      <sounds>
+        <music ref="music_dlc_pirate_soundtrack_avarice" />
+      </sounds>
+      <area sunlight="0.8" economy="0.75" security="0.15" factionlogic="false" />
+      <system>
+        <space environment="{1042,12031}"/>
+        <suns>
+          <sun class="{1042,13101}"/>
+        </suns>
+        <planets>
+          <planet name="{996662,9}" class="{1042,15071}" geology="{1042,15071}" atmosphere="{1042,10011}" population="{1042,10011}" settlements="{1042,10011}">
+          </planet>
+          <planet name="{996662,11}" class="{1042,14061}" geology="{1042,15021}" atmosphere="{1042,10011}" population="{1042,10011}" settlements="{1042,16021}">
+          </planet>
+          <planet name="{996662,13}" class="{1042,14061}" geology="{1042,14081}" atmosphere="{1042,10011}" population="{1042,10011}" settlements="{1042,10011}">
+          </planet>
+        </planets>
+      </system>
+    </properties>
+  </dataset>
+  <dataset macro="AEGS_cluster02_sector001_macro">
+    <properties>
+      <identification name="{20005,9966643}" description="{20005,9966644}" />
+      <worlds>
+        <world part="planet001c"/>
+      </worlds>
+    </properties>
+  </dataset>
+  <dataset macro="AEGS_cluster02_sector002_macro">
+    <properties>
+      <identification name="{20005,9966649}" description="{20005,99666410}" />
+      <worlds>
+        <world part="planet001c"/>
+      </worlds>
+    </properties>
+  </dataset>
+  <dataset macro="AEGS_cluster02_sector003_macro">
+    <properties>
+      <identification name="{20005,99666411}" description="{20005,99666412}" />
+      <worlds>
+        <world part="planet001c"/>
+      </worlds>
+    </properties>
+  </dataset>
+
+
+  <dataset macro="AEGS_cluster03_macro">
+    <properties>
+      <identification name="{996663,5}" description="{996663,6}" image="enc_cluster01"/>
+      <sounds>
+        <music ref="music_dlc_pirate_soundtrack_avarice" />
+      </sounds>
+      <area sunlight="1.6" economy="1.0" security="0.5" />
+      <system>
+        <space environment="{1042,12011}"/>
+        <suns>
+          <sun class="{1042,13021}"/>
+        </suns>
+        <planets>
+          <planet name="{996662,1}" class="{1042,15071}" geology="{1042,15021}" atmosphere="{1042,11031}" population="{1042,10021}" maxpopulation="18000000000" settlements="{1042,10011}">
+            <moons>
+              <moon name="{996661,1}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,10011}"/>
+              <moon name="{996661,3}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,16021}"/>
+              <moon name="{996661,5}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,10011}"/>
+              <moon name="{996661,7}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,16021}"/>
+            </moons>
+          </planet>
+          <planet name="{996662,3}(" class="{1042,14081}" geology="{1042,10011}" atmosphere="{1042,11051}" population="{1042,10021}" maxpopulation="50000000" settlements="{1042,10011}">
+            <moons>
+              <moon name="{996661,9}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,10011}"/>
+              <moon name="{996661,11}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,10011}"/>
+              <moon name="{996661,13}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,16021}"/>
+            </moons>
+          </planet>
+          <planet name="{996662,5}" class="{1042,16071}" geology="{1042,16041}" atmosphere="{1042,11071}" population="{1042,10021}" maxpopulation="18000000000" settlements="{1042,16041}">
+            <moons>
+              <moon name="{996661,15}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,16021}"/>
+              <moon name="{996661,17}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,10011}"/>
+            </moons>
+          </planet>
+          <planet name="{996662,7}" class="{1042,14131}" geology="{1042,15081}" atmosphere="{1042,11071}" population="{1042,10021}" maxpopulation="1000000000" settlements="{1042,16041}">
+            <moons>
+              <moon name="{996661,19}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,16021}"/>
+              <moon name="{996661,21}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,10011}"/>
+              <moon name="{996661,23}" geology="{1042,14051}" atmosphere="{1042,11031}" population="{1042,10011}" settlements="{1042,16021}"/>
+            </moons>
+          </planet>
+        </planets>
+      </system>
+    </properties>
+  </dataset>
+  <dataset macro="AEGS_cluster03_sector001_macro">
+    <properties>
+      <identification name="{20005,9966645}" description="{20005,9966646}" />
+      <worlds>
+        <world part="planet001c"/>
+      </worlds>
+    </properties>
+  </dataset>
+  <dataset macro="AEGS_cluster03_sector002_macro">
+    <properties>
+      <identification name="{20005,99666413}" description="{20005,99666414}" />
+      <worlds>
+        <world part="planet001c"/>
+      </worlds>
+    </properties>
+  </dataset>
+  <dataset macro="AEGS_cluster03_sector003_macro">
+    <properties>
+      <identification name="{20005,99666415}" description="{20005,99666416}" />
+      <worlds>
+        <world part="planet001c"/>
+      </worlds>
+    </properties>
+  </dataset>
+
+  
+  <dataset macro="AEGS_cluster04_macro">
+    <properties>
+      <identification name="{996663,7}" description="{996663,8}" image="enc_cluster01"/>
+      <sounds>
+        <music ref="music_dlc_pirate_soundtrack_avarice" />
+      </sounds>
+      <area sunlight="0.2" economy="0.4" security="0.25" />
+      <system>
+        <space environment="{1042,12021}"/>
+        <suns>
+          <sun class="{1042,13051}"/>
+        </suns>
+        <planets>
+          <planet name="{996662,23}" class="{1042,14061}" geology="{1042,15071}" atmosphere="{1042,10011}" population="{1042,10011}" settlements="{1042,10011}">
+          </planet>
+          <planet name="{996662,25}" class="{1042,14061}" geology="{1042,15081}" atmosphere="{1042,10011}" population="{1042,10011}" settlements="{1042,10011}">
+          </planet>
+          <planet name="{996662,27}" class="{1042,14061}" geology="{1042,15101}" atmosphere="{1042,10011}" population="{1042,10011}" settlements="{1042,10011}">
+          </planet>
+        </planets>
+      </system>
+    </properties>
+  </dataset>
+  <dataset macro="AEGS_cluster04_sector001_macro">
+    <properties>
+      <identification name="{20005,9966647}" description="{20005,9966648}" />
+      <worlds>
+        <world part="planet001c"/>
+      </worlds>
+    </properties>
+  </dataset>
+
+</defaults>

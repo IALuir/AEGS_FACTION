@@ -2,42 +2,6 @@
 <diff>
 
   <add sel="/baskets">
-    <basket id="computronicsubstrate">
-      <wares>
-        <ware ware="computronicsubstrate" />
-      </wares>
-    </basket>
-
-    <basket id="metallicmicrolattice">
-      <wares>
-        <ware ware="metallicmicrolattice" />
-      </wares>
-    </basket>
-
-    <basket id="siliconcarbide">
-      <wares>
-        <ware ware="siliconcarbide" />
-      </wares>
-    </basket>
-
-    <basket id="proteinpaste">
-      <wares>
-        <ware ware="proteinpaste" />
-      </wares>
-    </basket>
-
-    <basket id="terranmre">
-      <wares>
-        <ware ware="terranmre" />
-      </wares>
-    </basket>
-
-    <basket id="stimulants">
-      <wares>
-        <ware ware="stimulants" />
-      </wares>
-    </basket>
-
     <basket id="construction_ships_uee" name="Ship Construction Wares" description="Basket for wares necessary for uee ship construction">
       <wares>
         <ware ware="computronicsubstrate" />
@@ -61,6 +25,7 @@
 
     <basket id="food_uee" name="uee Food Wares" description="Basket for all tradable uee food-level wares">
       <wares>
+        <ware ware="proteinpaste" />
         <ware ware="terranmre" />
         <ware ware="medicalsupplies" />
       </wares>
@@ -109,54 +74,6 @@
       </wares>
     </basket>
 
-  </add>
-
-  <add sel="/baskets/basket[@id='bio']/wares">
-    <ware ware="proteinpaste" />
-  </add>
-
-  <add sel="/baskets/basket[@id='food']/wares">
-    <ware ware="terranmre" />
-  </add>
-
-  <add sel="/baskets/basket[@id='equipment']/wares">
-    <ware ware="computronicsubstrate" />
-    <ware ware="metallicmicrolattice" />
-    <ware ware="siliconcarbide" />
-  </add>
-
-  <add sel="/baskets/basket[@id='tech']/wares">
-    <ware ware="computronicsubstrate" />
-    <ware ware="metallicmicrolattice" />
-    <ware ware="siliconcarbide" />
-  </add>
-
-  <add sel="/baskets/basket[@id='global_illegal']/wares">
-    <ware ware="stimulants" />
-  </add>
-
-  <add sel="/baskets/basket[@id='pirate_container']/wares">
-    <ware ware="computronicsubstrate" />
-    <ware ware="metallicmicrolattice" />
-    <ware ware="siliconcarbide" />
-  </add>
-
-  <add sel="/baskets/basket[@id='all']/wares">
-    <ware ware="computronicsubstrate" />
-    <ware ware="metallicmicrolattice" />
-    <ware ware="siliconcarbide" />
-    <ware ware="proteinpaste" />
-    <ware ware="terranmre" />
-    <ware ware="stimulants" />
-  </add>
-
-  <add sel="/baskets/basket[@id='all_container']/wares">
-    <ware ware="computronicsubstrate" />
-    <ware ware="metallicmicrolattice" />
-    <ware ware="siliconcarbide" />
-    <ware ware="proteinpaste" />
-    <ware ware="terranmre" />
-    <ware ware="stimulants" />
   </add>
 
 </diff>

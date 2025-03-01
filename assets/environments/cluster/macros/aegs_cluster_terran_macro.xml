@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="aegs_cluster_terran_macro" class="celestialbody">
+    <component ref="aegs_cluster_terran" />
+    <properties>
+      <identification unique="0" />
+    </properties>
+  </macro>
+</macros>
